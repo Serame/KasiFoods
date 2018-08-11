@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "867353815744",
+    "firebase_url": "https://kotatime-e7946.firebaseio.com",
+    "project_id": "kotatime-e7946",
+    "storage_bucket": "kotatime-e7946.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867353815744:android:309b94a90c8dbabf",
+        "android_client_info": {
+          "package_name": "dev.com.jtd.toodles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867353815744-1nqcfo0loomjlqet1cv2k157c166ckla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8e1QkPKV-I7xjMPgAvdW4MGGBE_8c5Fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

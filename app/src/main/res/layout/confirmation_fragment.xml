@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:text="Your Order"
+        android:id="@+id/txtTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="1dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txtOrderNumber"
+        android:text="#"
+        android:textSize="45sp"
+        android:layout_below="@+id/txtTitle"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="1dp"
+        />
+
+    <TextView
+        android:id="@+id/txtOrderMess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtOrderNumber"
+        android:layout_above="@+id/btnOrderOk"
+        android:fontFamily="monospace"
+        android:text="@string/order_message"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnOrderOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/btnOk" />
+
+
+</RelativeLayout>

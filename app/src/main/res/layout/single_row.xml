@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background"
+
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:elevation="3dp"
+        android:background="@color/background"
+        app:cardCornerRadius="@dimen/card_hist_radius">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblItemName"
+                android:text="ItemName"
+                android:textColor="@color/price"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/lbDescription"
+                android:text="Description goes here"
+                android:textColor="@color/price"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/lblPrice"
+                android:singleLine="true"
+                android:text="Price Goes here "
+                android:textStyle="bold"
+                android:textColor="@color/price"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:id="@+id/txt_items_count_per_bun"
+                android:text="count goes here"
+                android:textColor="@color/price"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"/>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    dexOptions {
+        jumboMode true
+    }
+
+    defaultConfig {
+        applicationId "dev.com.jtd.toodles"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/volley.jar')
+    compile project(path: ':ToodlesEndpoints', configuration: 'android-endpoints')
+    compile files('gson-2.6.2.jar')
+    compile 'com.google.api-client:google-api-client-android:1.17.0-rc'
+
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.google.code.findbugs:jsr305:2.0.1'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //noinspection GradleCompatible
+    compile 'com.google.firebase:firebase-messaging:9.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

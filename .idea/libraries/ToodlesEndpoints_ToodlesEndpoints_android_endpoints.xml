@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ToodlesEndpoints.ToodlesEndpoints-android-endpoints">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ToodlesEndpoints/build/libs/ToodlesEndpoints-android-endpoints.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

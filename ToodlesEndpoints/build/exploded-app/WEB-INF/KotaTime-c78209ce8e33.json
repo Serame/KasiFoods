@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kotatime-e7946",
+  "private_key_id": "c78209ce8e33c0f2fae228df716ca3b65c3362ce",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDbVh+wibI11Eft\niCVcP2jJJPEE7M3Yiu8cYXC6bMQaCWO3QrxeKIzbb5I3KHKrhb+m36Q3CiBMbm+U\nf8q/2JiufxXSQwY+7yGuK65dRBppsi3kcX8Z0jRUwshFFM6CdaLYG6Fuo/r7Hwuf\n8xyJL2unwkmQwI6FxeqEL9oNT6+914fwzXrsIW+NzzBAixZdulTs8tHXSeDD/l1U\naKE8poBAaBSmE6jC6PvxvKhvWMkVNsUPc3PnqIyB/1FCIM7SzC8ySsPtSFHuBDM0\nlGi3lqkrHsiX5YrIbvst7ksWzm2A+Q8z586UCkU4GfcqE4UEy/O/yGmlzA+aE090\nGPORxEuxAgMBAAECggEAB1C4Z+/LFJocMocd4OAMB4O5W/3RET8erGKFwG/9e9/9\ni4iOJgah87UlSic/E4BXhPzUmicsLoRolAo4Px0Icu8ckWmocQunzXUZ619+ETGk\nRR2HHNDla4DKGL9nMlPIVD8aq5525y57maXMTo6Dyjbz3hWFWLSXcWRzrYnkzYGY\nOLnezv0ALdtPUsqjIqFSc/ccw9totCDiVINurEla9hXO+ZTxgkQ84fN4mfBWPRpS\n+WpEGOlacR7PLrq4FyKLALsMhbUNtT3C/+SZYF46vquUTLjTHv1UpIflikwPNQTc\nDp08UGK3C6w0Mwvh8Tkg4aGwtQq0T9w6LDAPnKmIKQKBgQD3dCxsOxZ3dvZiYpCM\nFpekgf3sDWd4NR2mFZD2BQIlJHueSg0UoTt3bL1v6m2QSDphdId1VP6ys+YfqaBV\nybqFwZwhjI29EOBAVNWLV6HH+9hw+TPDnpZrN5wv17YaXdEM3OtaRzp70k5l+S8F\nmXBgQy+iPUexzfwJPXlxyi/IqQKBgQDi6VrERMIozbEsDwv8JpJFOCSuFQQbhJ1Y\n7BOADXD6wCrmWU1uNriDrDST1Ggaz3ejng5S42dtP2WzejBkwHBfFy/HPtuNC7L+\nDjTNZsuxnwwjGuZ7GeJdjGkLO2ThuMdxzBYn6fB+42bPYvYnp6CRLWLPc95YqmjQ\ntACCu/4nyQKBgBzHcBsuTBCcz07l87W3Mu+5BpUbgfsjAk28mF1ke7liItZn+ll5\n3vamuOl5NEDhhZir+s0Uk4KpFYx9J96SVZUUzVnBhQKGIe6ZbzSDfpdJnQSWlwSb\nPxc9IncV+WHbo2KBlwWq3wxjiyak8mkOTVmEtteBlQMC19sjQSqQvznxAoGAQEHz\nCUercCCnvqFYNIS7wUxf3shmzGAmqurXrtifmPLYczjw23g1klwu23o4LPd5muUE\ni2aIgICGjWfZ0n5IlDUdu5/KTsv0WUuumkg1AMzYhAx3Hn87AmDj0mF0dRN9r3Ur\nBQyTpWtCTxJoQNyQdOxUYgke+x7u5cNDrcIM/DkCgYEAzKaaZDkSMdZKE57zPi6O\nv30svZ+R+KnOnzcOUuis/8c+bu+0ED6apIgA6cBxtBUmiZBrBZoTjEoJGxrNJoW8\nEvjN6FMIJl1ln5tecCPTuHHABdLJEaay4OPzFQgHyAXr0SCULAdQ/1st/zObxO12\nK9klphDOqpaECoga2h4f0Ek=\n-----END PRIVATE KEY-----\n",
+  "client_email": "kotatime-e7946@appspot.gserviceaccount.com",
+  "client_id": "102826349431883190489",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kotatime-e7946%40appspot.gserviceaccount.com"
+}
