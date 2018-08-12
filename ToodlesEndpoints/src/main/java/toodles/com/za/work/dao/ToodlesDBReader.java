@@ -74,6 +74,11 @@ public class ToodlesDBReader {
 
     }
 
+    public void getAllUser()
+    {
+        System.out.println("This is test method for now");
+    }
+
     public int addNewUser(User user) throws SQLException, ParseException {
 
         System.out.println("Inserting new user");
