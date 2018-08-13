@@ -66,7 +66,7 @@ public class MenuEndpoint {
                                  Constants.ANDROID_CLIENT_ID,
                                  Constant.API_EXPLORER_CLIENT_ID},
                 audiences = {Constants.ANDROID_AUDIENCE})
-        public ToodlesMessage testing(User user)
+        public ToodlesMessage testing()
         {
             ToodlesMessage message = new ToodlesMessage("Message has been recieved");
             message.setStatus(ToodlesMessage.STATUS_OK);

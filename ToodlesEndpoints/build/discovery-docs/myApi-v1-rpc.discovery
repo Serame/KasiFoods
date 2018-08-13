@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"hf84vk5HeqXKpApUTgMOcmfTP8c/8wuFV34WzNxAi3_5qQE5qU6WKNs\"",
+ "etag": "\"b1Osdr_IbRQ6O_NsGO6PRqm0804/amR3oFuge5sNASu4VzfSR1qLfN0\"",
  "discoveryVersion": "v1",
  "id": "myApi:v1",
  "name": "myApi",
@@ -13,8 +13,8 @@
   "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
  },
  "protocol": "rpc",
- "rootUrl": "https://kotatime-e7946.appspot.com/_ah/api/",
- "rpcUrl": "https://kotatime-e7946.appspot.com/_ah/api/rpc",
+ "rootUrl": "https://xenon-lantern-213109.appspot.com/_ah/api/",
+ "rpcUrl": "https://xenon-lantern-213109.appspot.com/_ah/api/rpc",
  "rpcPath": "/_ah/api/rpc",
  "parameters": {
   "alt": {
