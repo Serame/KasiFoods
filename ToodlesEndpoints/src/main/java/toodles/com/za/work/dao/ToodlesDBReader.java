@@ -45,15 +45,16 @@ public class ToodlesDBReader {
 
     public ToodlesDBReader() throws ClassNotFoundException, SQLException, IOException {
 
+        /*
         Class.forName("com.mysql.jdbc.Driver");
         String connection = "jdbc:mysql://localhost:3306/toodlesdb";
         this.con = DriverManager.getConnection(connection,"root","Aseblief45@");
-        this.sqlStatment = "";
+        this.sqlStatment = "";*/
 
         /*String instanceConnectionName = "kotatime-e7946:us-central1:toodles2";
         String databaseName = "toodlesdb";
 
-        String url = null;
+
         if(SystemProperty.environment.value() == SystemProperty.Environment.Value.Production) {
 
             Class.forName("com.mysql.jdbc.GoogleDriver");
@@ -68,10 +69,21 @@ public class ToodlesDBReader {
 
         }
 
-         con = DriverManager.getConnection(url,"root","Aseblief45@");*/
+         */
+
+        String url = null;
+        Class.forName("com.mysql.jdbc.Driver");
+        url = "jdbc:mysql://35.192.79.108:3306/toodlesdb";
+
+        con = DriverManager.getConnection(url,"root","Aseblief45@");
 
         System.out.println("Connection created");
 
+    }
+
+    public void getAllUser()
+    {
+        System.out.println("This is test method for now");
     }
 
     public int addNewUser(User user) throws SQLException, ParseException {
@@ -338,20 +350,24 @@ public class ToodlesDBReader {
 
     public ArrayList<Bunny> GetMenuItems(int itemType) throws SQLException {
         ArrayList<Bunny> BunniesList =  null;
-        sqlStatment = "{CALL GetAllMenuItems(?)}";
-        cStmt = con.prepareCall(sqlStatment);
-        cStmt.setInt("xitemtype",itemType);
-        rs = cStmt.executeQuery();
+        PreparedStatement preparedStatement = null;
+        sqlStatment = "SELECT ITEM_ID,DESCR,Price,Name,itemtype \n" +
+                "    FROM menu\n" +
+                "    where itemtype = ?\n" +
+                "    and ITEM_ID <> 13;";
+        preparedStatement = con.prepareStatement(sqlStatment);
+        preparedStatement.setInt(1,itemType);
+        rs = preparedStatement.executeQuery();
 
-            Bunny bunny;
-            BunniesList = new ArrayList<Bunny>();
-            while(rs.next())
-            {
-                bunny = new Bunny(rs.getInt(Bunny.ITEM_ID),rs.getString(Bunny.DESCR),rs.getDouble(Bunny.PRICE));
-                bunny.setName(rs.getString(Bunny.NAME));
-                BunniesList.add(bunny);
+        Bunny bunny;
+        BunniesList = new ArrayList<Bunny>();
+        while(rs.next())
+        {
+            bunny = new Bunny(rs.getInt(Bunny.ITEM_ID),rs.getString(Bunny.DESCR),rs.getDouble(Bunny.PRICE));
+            bunny.setName(rs.getString(Bunny.NAME));
+            BunniesList.add(bunny);
 
-            }
+        }
 
         closetAll();
         return BunniesList;
@@ -562,26 +578,22 @@ public class ToodlesDBReader {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
     public static void main(String[] args )
     {
-
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         try {
-            java.util.Date date = sdf.parse("1991-06-15");
-            Date dob = new Date(date.getTime());
-            System.out.println(dob.toString());
-        } catch (ParseException e) {
+            ToodlesDBReader db = new ToodlesDBReader();
+            ArrayList<Bunny> b = db.GetMenuItems(1);
+
+            for(Bunny bb : b)
+            {
+                System.out.println(bb.getDescr()+" ID: "+bb.getItem_id());
+            }
+
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
 

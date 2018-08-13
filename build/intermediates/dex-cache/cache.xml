@@ -30,12 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\00ed447f7b8f3710f77d7c65195bca1bad27a297\output\jars\classes.jar"
+        jar="C:\Users\smoit\AndroidStudioProjects\Toodles\ToodlesEndpoints\build\libs\ToodlesEndpoints-android-endpoints.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="bf4bf12d956dcfa2ad8c5d909a1074cac6aa0970">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_fcb4c623696901a209d3fddf050c48d0e295a579.jar" />
+        sha1="7722c7ec067ff859fcd38226fdad9099811b13cc">
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\ToodlesEndpoints-android-endpoints_531a24cee14f5b08be51783950adebe54b8c221a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,15 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\AndroidStudioProjects\Toodles\ToodlesEndpoints\build\libs\ToodlesEndpoints-android-endpoints.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="2772234fb6089e5fe8ae234d04643ea2c8812087">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\ToodlesEndpoints-android-endpoints_531a24cee14f5b08be51783950adebe54b8c221a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\smoit\AndroidStudioProjects\Toodles\app\gson-2.6.2.jar"
         jumboMode="true"
         optimize="true"
@@ -66,39 +57,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\5f1f51fd4d2d0aa30ec1a12664c92c3ef925562f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_6c3bd65327e4685b074fc3012c22418a1ab0de47.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\052561538476e365c4d4770fccae23e5814489e3\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cc769cacf36738234b19c92791bebd5304638dd4">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_72b427dc114731c29f398404629c0134cb88c3a3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\c60f669ed4bcd06999b2b025ceb9b56df8c7cc7a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f64aa03e24769f0e10f35f1c08e4d004b5db067b">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_88c191be2ca351b4155e45a5aa2600d78be4cad4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\smoit\.android\build-cache\4921df224ec4f66c0946248b93d97cb45524e25f\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
         <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_25da7531afa1ab5f64cc61c09325a2a3c445c839.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smoit\.android\build-cache\643fc4b6d9b1f6a116a91022b19ad102a12c6a48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efa7743094762c8b1626d833e8a3b31a6a6ea31a">
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_5e22105dabdda55e1ebaed532f578d442cabdb03.jar" />
     </item>
     <item
         is-multidex="false"
@@ -129,6 +102,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\smoit\.android\build-cache\bd893bd51683bd69f1a696e5c1e5fdbfd241ef48\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0f5aec8dc543f3bae42c156cffe3c294c7cedd71">
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_a30b756e25ebadd37d0e1ca58cdcb5ae3b5ab2ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\smoit\.android\build-cache\8ca16741d578a25cd5c01025aba1b759d672a02d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -156,15 +138,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\12694fa6d1024d7c49d2d85000e4f5779a067377\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b1c250352bb7bbd5ea1982ca5165f2a81f36b530">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_ce20bda737649c33df9c4174540db0169c6e7640.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\smoit\.android\build-cache\5aeac0e48e4c20e28ce0a9f87f4374946277293a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -183,12 +156,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\6d79186ec3eb5381d18d4190c446a549537f77fc\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\smoit\.android\build-cache\b57c89809970d83eee4c8951e9092a2ba5964b04\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="0f5aec8dc543f3bae42c156cffe3c294c7cedd71">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_2cd1ee2e0f002b8e4214ff9ea43948896efbc241.jar" />
+        sha1="b1c250352bb7bbd5ea1982ca5165f2a81f36b530">
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_485ee14f2e48d804e769f933467dc70cc29539ba.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,12 +174,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\f0f2d204b6e5d858b757174fceea227b2a3851f7\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\smoit\.android\build-cache\0dda7e3a3b1c1c4f34fa6aeccfc6424bd58d5c8c\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="b4f7d12c6719fac27917501d735e68b35a727d8f">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_4fde4aa56054f0bc8cf03bb3f32e476d1c0dae58.jar" />
+        sha1="86aca8cc002f8e0e466af22d18699e54f1d1b6e1">
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_b51ede29a02850fe0061a1b62d9d171e2523e322.jar" />
     </item>
     <item
         is-multidex="false"
@@ -237,12 +210,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\a537230718c217ad380162631821d2642ce3cb6e\output\jars\classes.jar"
+        jar="C:\Users\smoit\.android\build-cache\bccbba68513e55f4b7e77a2ed5fed3a33bc70b30\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="6d3dda07fbd30171edc150e4f13884fce5cd9926">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_82a3f55b2734e047d4b4cf8f50a056a781cafc46.jar" />
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_165cf7cbf638f49de41a6b2ae8eef17a237db87c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -273,21 +246,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\smoit\.android\build-cache\7311aa5ce6cc8ce0f62c4328348522dad7b02faa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8484d5b4369cc7ab8d5722290ed25d134afde322">
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_8bcf92653e63db459435142b8535f5a2979d6e4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\smoit\.android\build-cache\663a6784dfe7263939d6cfb1e1d4b249014ca2ae\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="d7cc5473b9cf4ea159a263cd477fb3ecb2987b96">
         <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_411d634177ae324b8ec22ff8b32b0bb39ffe893f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\052561538476e365c4d4770fccae23e5814489e3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cc769cacf36738234b19c92791bebd5304638dd4">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_72b427dc114731c29f398404629c0134cb88c3a3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -327,21 +300,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\00ed447f7b8f3710f77d7c65195bca1bad27a297\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="bf4bf12d956dcfa2ad8c5d909a1074cac6aa0970">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_fcb4c623696901a209d3fddf050c48d0e295a579.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\c60f669ed4bcd06999b2b025ceb9b56df8c7cc7a\output\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\smoit\.android\build-cache\3c5a6c3ab6f01a902526775ae136fed8d508facf\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="f64aa03e24769f0e10f35f1c08e4d004b5db067b">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_88c191be2ca351b4155e45a5aa2600d78be4cad4.jar" />
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_b4ebc35c45eb298fc1a120fe51a270033fae7c6f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -360,15 +324,6 @@
         revision="26.0.2"
         sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
         <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\common-1.0.0_305a8c563de490f6d3c9b08b5e2e9b427d35e181.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\1fc6749a8cd1e9faa61892b14e7fcdee323dd681\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a8911a244008ee1931a1d216683c7fadf44f8cb1">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_cffbe45e52930b1f0b6ddf645a54518781c69b19.jar" />
     </item>
     <item
         is-multidex="false"
@@ -408,15 +363,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\12694fa6d1024d7c49d2d85000e4f5779a067377\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b1c250352bb7bbd5ea1982ca5165f2a81f36b530">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_ce20bda737649c33df9c4174540db0169c6e7640.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\smoit\.android\build-cache\d6aee8ebd11dae586f4489f4da30f2d0dee52572\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -426,39 +372,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\6d79186ec3eb5381d18d4190c446a549537f77fc\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="0f5aec8dc543f3bae42c156cffe3c294c7cedd71">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_2cd1ee2e0f002b8e4214ff9ea43948896efbc241.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\1fc6749a8cd1e9faa61892b14e7fcdee323dd681\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a8911a244008ee1931a1d216683c7fadf44f8cb1">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_cffbe45e52930b1f0b6ddf645a54518781c69b19.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\smoit\AndroidStudioProjects\Toodles\app\libs\volley.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
         <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\volley_4cdeabdf466e7f4c260f3436114b0b0653ff6d06.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\f0f2d204b6e5d858b757174fceea227b2a3851f7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b4f7d12c6719fac27917501d735e68b35a727d8f">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_4fde4aa56054f0bc8cf03bb3f32e476d1c0dae58.jar" />
     </item>
     <item
         is-multidex="false"
@@ -516,15 +435,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\5f1f51fd4d2d0aa30ec1a12664c92c3ef925562f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_6c3bd65327e4685b074fc3012c22418a1ab0de47.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
         jumboMode="true"
         optimize="true"
@@ -540,15 +450,6 @@
         revision="26.0.2"
         sha1="ac2ce6027755bcf49442e70597bec0feb9064f68">
         <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_11784fa2286f05be447c9b6537694c25c22801ba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\a537230718c217ad380162631821d2642ce3cb6e\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6d3dda07fbd30171edc150e4f13884fce5cd9926">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_82a3f55b2734e047d4b4cf8f50a056a781cafc46.jar" />
     </item>
     <item
         is-multidex="false"
@@ -576,6 +477,24 @@
         revision="26.0.2"
         sha1="7d7f60c4783872861222166f6164215f8951c7b1">
         <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\common-1.0.3_62515e8b120f9bd4afc9a1acfb853ba4ad2c1770.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smoit\.android\build-cache\218479c73bca187bb3438be8b57009b446a3422f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="98f90b754c467e641eb666bb74b9b4377da4c9c5">
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_4ad978b4367387e0b799d14044681eda0789cb10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\smoit\.android\build-cache\01d6ac1d11a218de7170d48f25e097372b4b01ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="51439f5fd81208cae8623ce21acd1ca7a73a3d33">
+        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_a607f5ef9e956aa2cee946a50f726b5e9aebad5b.jar" />
     </item>
     <item
         is-multidex="false"

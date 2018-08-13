@@ -1,6 +1,6 @@
 {
  "kind": "discovery#restDescription",
- "etag": "\"hf84vk5HeqXKpApUTgMOcmfTP8c/Or5nK5XJPJk7P9euobdz-X5GHTk\"",
+ "etag": "\"b1Osdr_IbRQ6O_NsGO6PRqm0804/Ag8WhFykK-BdM3y6tUZ5DwMfjAw\"",
  "discoveryVersion": "v1",
  "id": "menuApi:v1",
  "name": "menuApi",
@@ -13,9 +13,9 @@
   "x32": "https://www.gstatic.com/images/branding/product/1x/googleg_32dp.png"
  },
  "protocol": "rest",
- "baseUrl": "https://kotatime-e7946.appspot.com/_ah/api/menuApi/v1/",
+ "baseUrl": "https://xenon-lantern-213109.appspot.com/_ah/api/menuApi/v1/",
  "basePath": "/_ah/api/menuApi/v1/",
- "rootUrl": "https://kotatime-e7946.appspot.com/_ah/api/",
+ "rootUrl": "https://xenon-lantern-213109.appspot.com/_ah/api/",
  "servicePath": "menuApi/v1/",
  "batchPath": "batch",
  "parameters": {
@@ -459,10 +459,6 @@
    "id": "menuApi.testing",
    "path": "testing",
    "httpMethod": "POST",
-   "request": {
-    "$ref": "User",
-    "parameterName": "resource"
-   },
    "response": {
     "$ref": "ToodlesMessage"
    },
