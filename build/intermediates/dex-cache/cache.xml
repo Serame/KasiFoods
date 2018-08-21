@@ -3,507 +3,516 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.23.0\b95521559faf49989ff036a5b15fd16476bdc955\google-api-client-android-1.23.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b95521559faf49989ff036a5b15fd16476bdc955">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.23.0_cf94cd0374395350a429b2484e98bbf8de268b32.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_d45e7fa70724850257c307ba66b6005f3d25456c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\glide-3.7.0_f33df171a9b5aa7feadd468d32b224e3be365cea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\AndroidStudioProjects\Toodles\ToodlesEndpoints\build\libs\ToodlesEndpoints-android-endpoints.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="7722c7ec067ff859fcd38226fdad9099811b13cc">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\ToodlesEndpoints-android-endpoints_531a24cee14f5b08be51783950adebe54b8c221a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\9a6288d0425873081f2e6ff284747e302b5831f3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_1b81c5e45a8e2b127127d1eb583340c81fb5e7aa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\AndroidStudioProjects\Toodles\app\gson-2.6.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\gson-2.6.2_40b2b4353c6a8c4c47ba9b5d878b36af946a4253.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\4921df224ec4f66c0946248b93d97cb45524e25f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_25da7531afa1ab5f64cc61c09325a2a3c445c839.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\643fc4b6d9b1f6a116a91022b19ad102a12c6a48\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="efa7743094762c8b1626d833e8a3b31a6a6ea31a">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_5e22105dabdda55e1ebaed532f578d442cabdb03.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.23.0\522ea860eb48dee71dfe2c61a1fd09663539f556\google-api-client-1.23.0.jar"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.23.0\522ea860eb48dee71dfe2c61a1fd09663539f556\google-api-client-1.23.0.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="522ea860eb48dee71dfe2c61a1fd09663539f556">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\google-api-client-1.23.0_3dc88d46f44eb95fbbe8b8044e033187c1448258.jar" />
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\google-api-client-1.23.0_84f2ebf8207d1889fd689703669e460cfef768bd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\35b6c8e154cca3e278105d3c1eea9fb3f36866c2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_d60f5c5faa76b24ae96aa376bb0024cc88453436.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\ca78ea87753dcdfd0044bb4b6e4dc23518781715\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_7401a6850ad451af271527b3c8783f3bf7e78a91.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\bd893bd51683bd69f1a696e5c1e5fdbfd241ef48\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="0f5aec8dc543f3bae42c156cffe3c294c7cedd71">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_a30b756e25ebadd37d0e1ca58cdcb5ae3b5ab2ee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\8ca16741d578a25cd5c01025aba1b759d672a02d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="caa03787689212c10939f308a55a8dc8a3333ed2">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_9df134977b3353543c68fd8aea9561b816c79430.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.2\b9ef4342c934a1a8b107506273dc8061662a322\support-annotations-27.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="0b9ef4342c934a1a8b107506273dc8061662a322">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\support-annotations-27.0.2_7a9e6838fe914548277a499589fff3bc798d6ec8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\90cb7eca0b80e31406441508f8dd2820338451ad\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_0a919c91ab52dc7b60cbb6f881e5d90a22372159.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\5aeac0e48e4c20e28ce0a9f87f4374946277293a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="fe3916317a699975bcce0cba2d13fd2d8cf88922">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_abd0aba2b92a36735b6bfe82f30e653b361fc13e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\guava-jdk5-17.0_717894bf20f46874c6a2309726a2750870e56f4e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\b57c89809970d83eee4c8951e9092a2ba5964b04\output\jars\classes.jar"
+        jar="C:\Users\HP Laptop\.android\build-cache\9ab7a2020c2e7fef6a365d5e69cfe94292fc35a4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="b1c250352bb7bbd5ea1982ca5165f2a81f36b530">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_485ee14f2e48d804e769f933467dc70cc29539ba.jar" />
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_72b368dc79fb7fadfe39c19769542cba9c9ee138.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\07b5c9f09a25754a6bb08cc7fa17f6b96592d3b4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="04cd0cacbedcb338f64665b88bad64d145325fbd">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_80f6ad4d9a5067c8ead130e59c06ecf1531e8d66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\0dda7e3a3b1c1c4f34fa6aeccfc6424bd58d5c8c\output\jars\classes.jar"
+        jar="C:\Users\HP Laptop\.android\build-cache\9204189ac412b4026d35b86d4e13c15a06255a29\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="86aca8cc002f8e0e466af22d18699e54f1d1b6e1">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_b51ede29a02850fe0061a1b62d9d171e2523e322.jar" />
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_6147b49863cdb9437fa6e887f20330cac2bd273b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\086d04db125d97a8fa188c0eff6c960ba2868bb7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_e0ac471ebd6e7c6e8520893576754bd92272a1ba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\11f05ec249b7045ebbf19bbd3e4fe8d8afb58091\output\jars\classes.jar"
+        jar="C:\Users\HP Laptop\.android\build-cache\455ba9d34146754684c80431248edff136e94f41\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_49031324adc35b8d3290d27097dc9cfeca60119b.jar" />
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_be5859fd4387e0a38e49466f84da317523346c89.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\AndroidStudioProjects\Toodles\app\gson-2.6.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\gson-2.6.2_40b2b4353c6a8c4c47ba9b5d878b36af946a4253.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\bccbba68513e55f4b7e77a2ed5fed3a33bc70b30\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6d3dda07fbd30171edc150e4f13884fce5cd9926">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_165cf7cbf638f49de41a6b2ae8eef17a237db87c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\AndroidStudioProjects\Toodles\app\libs\volley.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\volley_4cdeabdf466e7f4c260f3436114b0b0653ff6d06.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.23.0\e57ea1e2220bda5a2bd24ff17860212861f3c5cf\google-oauth-client-1.23.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="e57ea1e2220bda5a2bd24ff17860212861f3c5cf">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.23.0_5e03bb5d54de914bc4b9e8d4d11c7848dfe4988c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\e616706f93febbb5964bf315ea33ab580ff822ff\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_424c7897a18eaf7e3ebe53c5aa560ca5f9e89ae3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\7311aa5ce6cc8ce0f62c4328348522dad7b02faa\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="8484d5b4369cc7ab8d5722290ed25d134afde322">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_8bcf92653e63db459435142b8535f5a2979d6e4e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\663a6784dfe7263939d6cfb1e1d4b249014ca2ae\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d7cc5473b9cf4ea159a263cd477fb3ecb2987b96">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_411d634177ae324b8ec22ff8b32b0bb39ffe893f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\60ca25abf01fdb880dc1ecf93fc1887ecd13eaa1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="618f75fe11febf263e3234c7da7dc892232a5608">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_db73293743b060601ff4ceeb76a7534f099e657e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3_af98a5b5818aab7559e97d25fdf1633d3ece762e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\d61dcdea44d1989e691fd281c943eda7d2de40bd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cdebcd9e0580b35115f655f8dc8ed7a66a8ef0fc">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_a09eb3bc34ceb48cbf1d982dc67dc629dd9b246e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\core-3.3.0_af14c6c62f0d71c9bfaa505d61c2ebd384365044.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\3c5a6c3ab6f01a902526775ae136fed8d508facf\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f64aa03e24769f0e10f35f1c08e4d004b5db067b">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_b4ebc35c45eb298fc1a120fe51a270033fae7c6f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\82d2d7f4dba905f77a1266637a41c36cbb496805\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="14bfdbf5594d4d7c320de20831849050788ab1e3">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_dc6cd25298805835cf76319d9c06b17d9acc0a9c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\common-1.0.0_305a8c563de490f6d3c9b08b5e2e9b427d35e181.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\9fd50b17cc17c19fc1d44ed77bac43fd3383fe22\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_2b4347c064bcb4e34584aeefd88e45c2cd8ff984.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\AndroidStudioProjects\Toodles\ToodlesEndpoints\build\libs\ToodlesEndpoints-android-endpoints.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="2772234fb6089e5fe8ae234d04643ea2c8812087">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\ToodlesEndpoints-android-endpoints_531a24cee14f5b08be51783950adebe54b8c221a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.23.0\8e86c84ff3c98eca6423e97780325b299133d858\google-http-client-1.23.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="8e86c84ff3c98eca6423e97780325b299133d858">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\google-http-client-1.23.0_39d09d3b93adc4bf091fa990fd4035c8573eb050.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\f6b0a74756f3d6f13a2259b64b5d8c1044553bbd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_50d21d1d8c2cd09839a370122c307bf9b422d329.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\d6aee8ebd11dae586f4489f4da30f2d0dee52572\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="25c8cb628374f9a2d59ff9e1172753751e9a9f84">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_e92d5fee6ddee78476363949fff8f471170221d8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\AndroidStudioProjects\Toodles\app\libs\volley.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\volley_4cdeabdf466e7f4c260f3436114b0b0653ff6d06.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.23.0\fd6761f4046a8cb0455e6fa5f58e12b061e9826e\google-http-client-jackson2-1.23.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="fd6761f4046a8cb0455e6fa5f58e12b061e9826e">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.23.0_72debd68b08689edf85ae4a2029a3dd1b74428ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\8cdc537594d69b34962e53093972a770e248fb46\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_4dadb5404275e10a0b2bbadd1bed667779290292.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\b8a7e84a8d623846dd084633f4f5ef00ed8124b3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="bcd0bcdef85b31a656af76e39c0c95ce70800772">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_0a9d4272074a426f800cb9cab191fd7c1d734167.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\c9510045277882c14d641afda790eea0df75df7e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_7dc10fa13488ee8f34ca7cdbeb7179058091273f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_864ce83153e7ea8a314442ed74327d87f4f0359a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\e61238fb49deb2e5fea94e634a07d66929fccc94\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_c8bcee20a027a24e7c92bb14e446d49475f20199.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\jsr305-2.0.1_a421185876c7adb19edf7355661f8db5cb3db57a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\2babbb9d3c1067016f5138f60bb5d24f49bbc97a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="ac2ce6027755bcf49442e70597bec0feb9064f68">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_11784fa2286f05be447c9b6537694c25c22801ba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.23.0\1bbe77a8594d7892571266392b8a7dd0a5980664\google-http-client-android-1.23.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="1bbe77a8594d7892571266392b8a7dd0a5980664">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.23.0_c1cb56179742a94252b1b83a6857d225f613ca93.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\c3b5cff36a81a78ce103ea38202b688bb9bbde2e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="ed6560f31a6a40b5965f5879d8f2eab1f68def05">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_48720d2f6a166f3bd8d6895c63a22fc2eae44af2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.3\7d7f60c4783872861222166f6164215f8951c7b1\common-1.0.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="7d7f60c4783872861222166f6164215f8951c7b1">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\common-1.0.3_62515e8b120f9bd4afc9a1acfb853ba4ad2c1770.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\218479c73bca187bb3438be8b57009b446a3422f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="98f90b754c467e641eb666bb74b9b4377da4c9c5">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_4ad978b4367387e0b799d14044681eda0789cb10.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\smoit\.android\build-cache\01d6ac1d11a218de7170d48f25e097372b4b01ea\output\jars\classes.jar"
+        jar="C:\Users\HP Laptop\.android\build-cache\9c88dfa02d9b41aebfa2287a6a950cf617be21d0\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="51439f5fd81208cae8623ce21acd1ca7a73a3d33">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\classes_a607f5ef9e956aa2cee946a50f726b5e9aebad5b.jar" />
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_fe0c051bd62251bdc2e638f3d18bf45017a8bf61.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\smoit\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jar="C:\Users\HP Laptop\.android\build-cache\6d88bfa2e1cc3858d255604f1c9ee3cc4727f39a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_4190585d9cb6d0c204c4245c4fa988219efc7f5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.0.2\b9cd8fc6bd15cb915735d34535db30ece0c44603\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_2aef3d8737c6183bd20aa1172296789baec8ade3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.23.0\8e86c84ff3c98eca6423e97780325b299133d858\google-http-client-1.23.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8e86c84ff3c98eca6423e97780325b299133d858">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\google-http-client-1.23.0_15f4c8bd7630b43f9c58d3ffacf36687f03dbcb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="C:\Users\smoit\AndroidStudioProjects\Toodles\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_a02b0db653c830f68f62960023874c7e26ae7ad7.jar" />
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_8fa3947fb1bddafd044527a33946be0253327fc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\ToodlesEndpoints\build\libs\ToodlesEndpoints-android-endpoints.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7036962930be7ec458917abc4ee515b784ae893">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\ToodlesEndpoints-android-endpoints_06e34ae113b3ca76b966dca67a5d5e44a67316c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\51c56634947e3f87994bdbf29cf5408b9793e0b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ac2ce6027755bcf49442e70597bec0feb9064f68">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_9a481c95b4f4152152e4460ee25ef11e81761c0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\acd737937becf82283afa30cc9585666085791b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8484d5b4369cc7ab8d5722290ed25d134afde322">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_96942055c0ebd4016972e3f6daef0d3e09b1aa44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\fcd7ad28c324075c4adbca9b1b565039d678af6d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_743a68b450915c7a875a5d8660d2d3ab48cc62dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\e3320177c0932574085257292da296cceefdf1a6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efa7743094762c8b1626d833e8a3b31a6a6ea31a">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_88b8299a8342fd25a75203985fc8e75c475951f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.23.0\fd6761f4046a8cb0455e6fa5f58e12b061e9826e\google-http-client-jackson2-1.23.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fd6761f4046a8cb0455e6fa5f58e12b061e9826e">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.23.0_fec797f1897badf2179b77b6d143c309d7a4e78c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\5a20d3dca01728ac4b9da33b867151c1eb27952d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7cc5473b9cf4ea159a263cd477fb3ecb2987b96">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_3676ff92be533350158aa01559ef1d817c5557f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_a4a29b683ee27684841af38e33df0dcdcd2fd6aa.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d9b8b23cc71187bad63ddad0e4ff9f3dd161860a">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1a7dd3ce2f2f375a0f621165035c32e7013c457b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\b18d8bafcb7226eb90c42bacd020a3adb0d2ac37\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="25c8cb628374f9a2d59ff9e1172753751e9a9f84">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_829b7490c88e78a4147f03bef0ef3a6698d7afa8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\473128d328745bea08fcb4c36f9f3d31c9b89a75\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="04cd0cacbedcb338f64665b88bad64d145325fbd">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_34c7793644e96637110beb92176234e21f9011b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3_23b104f4005d5408c1ad5a9365d30300795dee40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\glide-3.7.0_497fa04ee68a98f4b481298118ac9e5c4f89bd3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\0571548a62e9b1617ec08430eb613f4246d5fddb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_7dfdc1caca1ac14d3455e9425d1d20613f6aa1c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\jsr305-2.0.1_7eb9d548f2a258617d6a2b3e21f2649d04bea8fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\b29c5d74a5a96c6e277aa53499896ac1803fa770\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_e6503d97c6dd1158fa20ec258e9eaa952049cc9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\fea4e7e0f320493b3f1411d1a260f79c3fcfa487\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cdebcd9e0580b35115f655f8dc8ed7a66a8ef0fc">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_32a7ad47bc647a72c2f2af33b2c4db43250a9181.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_f6f3b8583dd8165b6021bbfa7f75177cfa3a3304\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\3c08e9479d712cddeb89ec6ac5fe67e9d79356c5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_7b80c8189bae164e3e3cd70d06ec9b75f2a9fafb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\core-3.3.0_b9e47a967dddd8a2e758aaae23d3cce14dacbe7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\f59b6ee994dc142826f2cc6f1b5f055d637059db\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="618f75fe11febf263e3234c7da7dc892232a5608">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_f9fac76854db7ecf2f93cabd7814bc8c1f3d6ac5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.23.0\b95521559faf49989ff036a5b15fd16476bdc955\google-api-client-android-1.23.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b95521559faf49989ff036a5b15fd16476bdc955">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.23.0_88e49910cfae1aed03331e358b54346f72d2216f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\guava-jdk5-17.0_00ef9e3076337e918a6b40bcf4693df3bdee9f69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\1e11dc1b73fccd76e469da24f6c02992ef352d1a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="caa03787689212c10939f308a55a8dc8a3333ed2">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_9e52f2e32d3b4951113ca670af29856834b2694f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\ec97f974490640a999c5e3e0322e574c0032c23c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_8c7b980162fd91798affd1583f58393a2cd7efd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\8776aff09549a981146052ab26acb478ed7c6176\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_17b478b4d82560e7026fb2c4764f1340b96b128a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.3\7d7f60c4783872861222166f6164215f8951c7b1\common-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7d7f60c4783872861222166f6164215f8951c7b1">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\common-1.0.3_77a429b473e312bf0d65337605dd5035c470fc88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\fbc44e0ef34a86d4ce0b52d626ba8e7b9fcf050d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_f97e0f5f5052fec0f936b12b7e546b5cad8eab02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\81d95ce40c629a7e38445a42fedf5fbd9195427c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_5be706d1e6216381864badbd3df077b6f41b98c7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_8efe82f5ba6426f8616fd2592744466a16ffd348\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\dfb4bb51e5747c243b7b9fba9f5e242974509913\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="14bfdbf5594d4d7c320de20831849050788ab1e3">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_2048bb7f03c0b004e7b8fa80163a511dfb055bd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\7f69bb30c236bb0628cd5c427a3505e3d75db603\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_4998247eb5ef77cc30145ea26ba7483885504628.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.23.0\e57ea1e2220bda5a2bd24ff17860212861f3c5cf\google-oauth-client-1.23.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e57ea1e2220bda5a2bd24ff17860212861f3c5cf">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.23.0_686976ec4ce7eb07ae64da7be931106cb309e4dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\7ba01293b6039b97f036827695dad690a6db11e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed6560f31a6a40b5965f5879d8f2eab1f68def05">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_c30310e4f615e187992249965413c7c46ad1aa73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\c84e308dc9e0183952721846f8a92ff98e35b719\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_c1ce4012119ab8b8392cea1819508be2614f25f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\volley_f6f3b8583dd8165b6021bbfa7f75177cfa3a3304.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.23.0\1bbe77a8594d7892571266392b8a7dd0a5980664\google-http-client-android-1.23.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1bbe77a8594d7892571266392b8a7dd0a5980664">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.23.0_8bae24da3241e5cde7d14c1a4cfb465111c9aa77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\gson-2.6.2_8efe82f5ba6426f8616fd2592744466a16ffd348.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.2\b9ef4342c934a1a8b107506273dc8061662a322\support-annotations-27.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0b9ef4342c934a1a8b107506273dc8061662a322">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\support-annotations-27.0.2_31f6ea3e9a35cac597845af34dfd353528a50f55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\d6cc1f0062568dd02a631d1c5cafe3ee2388a2af\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcd0bcdef85b31a656af76e39c0c95ce70800772">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_938082a370e8b0c974c55510fa0984179703b3ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\585e95a46eb0573cbb823c792f73bfbb0f777da5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_05379e6b72450e54a654224f57672933dcce3144.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_93e679c9e009c4e894f8bb846aa4eb2a3c3f7645\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\41ad691d019ac9751b6531e18b173a2f3b43e1d6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0f5aec8dc543f3bae42c156cffe3c294c7cedd71">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_477244c2673f016083f3e7776abce9d42daceb3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\4946c6aca24afd23b84f755747e783f7f55c71b8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe3916317a699975bcce0cba2d13fd2d8cf88922">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_eaf452a8d7b9b04ab4cb0ea1052274dbf8ce30ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\125cc4b7da9e6e88c7779013e02d2269a1ca238b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="98f90b754c467e641eb666bb74b9b4377da4c9c5">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_ad6fd04a4aa5ea98a67bf6e873e9090692539b04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\common-1.0.0_090492d4a7b6fee0c0a6952e774d8203d708310f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\341e3f76333a5efb42d1de499b70a98d2a5800e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f64aa03e24769f0e10f35f1c08e4d004b5db067b">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_f14918454c344b9a5795ac9a7af9dda514ad3b94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HP Laptop\.android\build-cache\7a386cd0e26062bf0aac06a1b3820fe7f6da0f37\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6d3dda07fbd30171edc150e4f13884fce5cd9926">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_6ae2a7e02eddd5ecc1855db02665f410f277ac71.jar" />
     </item>
 
 </items>

@@ -68,7 +68,21 @@ public class MenuEndpoint {
                 audiences = {Constants.ANDROID_AUDIENCE})
         public ToodlesMessage testing()
         {
-            ToodlesMessage message = new ToodlesMessage("Message has been recieved");
+
+            ToodlesMessage message = new ToodlesMessage("Empty message for now");
+            try {
+                ToodlesDBReader  db = new ToodlesDBReader();
+                message.setMessage("The connection is "+db.testDB());
+
+
+            } catch (ClassNotFoundException e) {
+                message.setMessage("ClassNoFoundException occured "+e.getMessage());
+            } catch (SQLException e) {
+                message.setMessage("SQLException occured "+e.getMessage());
+            } catch (IOException e) {
+                message.setMessage("IOException occured "+e.getMessage());
+            }
+
             message.setStatus(ToodlesMessage.STATUS_OK);
 
             return message;

@@ -2,6 +2,8 @@ package toodles.com.za.work.dao;
 
 
 
+import com.google.appengine.api.utils.SystemProperty;
+
 import org.json.JSONException;
 
 import java.io.IOException;
@@ -19,6 +21,7 @@ import java.util.ArrayList;
 import java.sql.Date;
 import java.util.Calendar;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import toodles.com.za.work.model.Bunny;
@@ -38,12 +41,16 @@ public class ToodlesDBReader {
     private CallableStatement cStmt;
     private ResultSet rs;
     private String sqlStatment;
-    public static final String BUNNY_ID = "bunny_id";
-    public static final String INGR_ID = "ingr_id";
-    public static final String DESCR = "descr";
-    public static final String PRICE = "price";
+    private static final String BUNNY_ID = "bunny_id";
+    private static final String INGR_ID = "ingr_id";
+    private static final String DESCR = "descr";
+    private static final String PRICE = "price";
+    String testString = "The reader";
 
     public ToodlesDBReader() throws ClassNotFoundException, SQLException, IOException {
+
+        String url = "The reader";
+        Logger loger = Logger.getLogger("Notifications");
 
         /*
         Class.forName("com.mysql.jdbc.Driver");
@@ -52,32 +59,54 @@ public class ToodlesDBReader {
         this.sqlStatment = "";*/
 
         /*String instanceConnectionName = "kotatime-e7946:us-central1:toodles2";
-        String databaseName = "toodlesdb";
+        String databaseName = "toodlesdb";*/
 
 
         if(SystemProperty.environment.value() == SystemProperty.Environment.Value.Production) {
 
             Class.forName("com.mysql.jdbc.GoogleDriver");
-            url = "jdbc:google:mysql://kotatime-e7946:us-central1:toodles2/toodlesdb";
-            System.out.println("Using prod environment value");
+            url = "jdbc:google:mysql://xenon-lantern-213109:us-central1:uat-kasifood02u/toodlesdb";
+            //url = "jdbc:mysql://google/toodlesdb?cloudSqlInstance=xenon-lantern-213109:us-central1:uat-kasifood02u&socketFactory=com.google.cloud.sql.mysql.SocketFactory&user=root&password=Aseblief45@&useSSL=false";
+                                                                 //xenon-lantern-213109:us-central1:uat-kasifood02u
+            System.out.println("Using prod environment values");
+            loger.log(Level.INFO,"Using prod environment values");
         }
         else
         {
             Class.forName("com.mysql.jdbc.Driver");
-            url = "jdbc:mysql://35.188.9.110:3306/toodlesdb";
-            System.out.println("not Using prod environment value");
+            url = "jdbc:mysql://35.192.79.108:3306/toodlesdb";
+            System.out.println("Using dev machine environment values");
+            loger.log(Level.INFO,"Using dev server environment values");
+
 
         }
 
-         */
 
-        String url = null;
-        Class.forName("com.mysql.jdbc.Driver");
+
+/*
+
+
+
+        Class.forName("com.mysql.jdbc.GoogleDriver");
+        //url = "jdbc:google:mysql://kotatime-e7946:us-central1:toodles2/toodlesdb";
+        url = "jdbc:mysql://google/toodlesdb?cloudSqlInstance=xenon-lantern-213109:us-central1:uat-kasifood02u&socketFactory=com.google.cloud.sql.mysql.SocketFactory&user=root&password=Aseblief45@&useSSL=false";
+        System.out.println("Using prod environment value");*/
+
+        /*Class.forName("com.mysql.jdbc.Driver");
         url = "jdbc:mysql://35.192.79.108:3306/toodlesdb";
 
-        con = DriverManager.getConnection(url,"root","Aseblief45@");
 
-        System.out.println("Connection created");
+*/
+
+        testString = url;
+        con = DriverManager.getConnection(url,"root","Aseblief45@");
+        loger.log(Level.INFO,"Connection created");
+
+    }
+
+    public String  testDB()
+    {
+        return this.testString;
 
     }
 

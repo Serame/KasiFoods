@@ -3,6 +3,7 @@
     <application>xenon-lantern-213109</application>
     <version>1</version>
     <threadsafe>true</threadsafe>
+    <use-google-connector-j>true</use-google-connector-j>
 
 
     <system-properties>

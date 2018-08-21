@@ -63,8 +63,8 @@ public class ClientServerCommunicator {
     private ProgressDialog progressDialog;
     private ArrayList<Bunny> ingredients;
     private ArrayList<BunnyIngredients> ingredientsPerBun;
-    private String urlJSON = "http://10.0.3.2:8080/_ah/api/menuApi/v1/";
-//    private String urlJSON = "https://kotatime-e7946.appspot.com/_ah/api/menuApi/v1/";
+  //  private String urlJSON = "http://10.0.3.2:8080/_ah/api/menuApi/v1/";
+    private String urlJSON = "https://xenon-lantern-213109.appspot.com/_ah/api/menuApi/v1/";
     private MainMenuActivity menuActivity;
     private CartActivity cartActivity;
     private Gson gson;

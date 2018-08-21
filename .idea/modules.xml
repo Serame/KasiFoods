@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/KasiFoods.iml" filepath="$PROJECT_DIR$/KasiFoods.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestEngine/TestEngine.iml" filepath="$PROJECT_DIR$/TestEngine/TestEngine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Toodles.iml" filepath="$PROJECT_DIR$/Toodles.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToodlesEndpoints/ToodlesEndpoints.iml" filepath="$PROJECT_DIR$/ToodlesEndpoints/ToodlesEndpoints.iml" />
       <module fileurl="file://$PROJECT_DIR$/ToodlesEngine/ToodlesEngine.iml" filepath="$PROJECT_DIR$/ToodlesEngine/ToodlesEngine.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
