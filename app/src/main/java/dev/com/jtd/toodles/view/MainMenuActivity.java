@@ -194,7 +194,7 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
 
 
 
-        //testToodlesDBAO();
+        testToodlesDBAO();
 
        /* bunniesTask = new NetworkAsyncTask(pd,this);
         bunniesTask.execute(new Pair<Context, String>(this,MENU_REQ_ID));*/
@@ -206,20 +206,10 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
 
         ToodlesDBAO t = new ToodlesDBAO(this);
         //t.deleteAllOrders();
-
-
-
-        int[] ids = t.getDistinctOrderIDs();
-
-        for(int i:ids)
+        ArrayList<PlacedOrders> pl = t.getORderHistory();
+        for(PlacedOrders p : pl)
         {
-            PlacedOrders pl = t.getOrderHistoryString(i);
-            Log.w("OrderDescrID",pl.getOrderID()+"");
-            Log.w("OrderAmount",pl.getTotamount()+"");
-            Log.w("OrderDate",pl.getCompletionDate());
-            Log.w("OrderDescr ",pl.getOrderDescription().toString());
-
-
+            Log.w("Order: ",p.getItemDescr());
         }
 
 

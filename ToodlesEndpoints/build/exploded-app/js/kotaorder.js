@@ -2,13 +2,14 @@ function init() {
     //Parameters are APIName,APIVersion,CallBack function,API Root
     var apiName = 'menuApi';
           var apiVersion = 'v1';
-          var apiRoot = 'https://' + window.location.host + '/_ah/api';
-          if (window.location.hostname == 'localhost'
+          //var apiRoot = 'https://' + window.location.host + '/_ah/api';
+          var apiRoot = 'https://xenon-lantern-213109.appspot.com/_ah/api';
+        /*  if (window.location.hostname == 'localhost'
               || window.location.hostname == '127.0.0.1'
               || ((window.location.port != "") && (window.location.port > 1023))) {
                 // We're probably running against the DevAppServer
                 apiRoot = 'http://' + window.location.host + '/_ah/api';
-          }
+          }*/
     gapi.client.load(apiName, apiVersion, null, apiRoot);
     console.log('apiRoot: '+apiRoot);
     /*
@@ -64,7 +65,7 @@ $(document).ready(function(){
 
 function createNewRow(order,tableID){
 
-    console.log(order);
+
 
     var table = document.getElementById(tableID);
 
@@ -72,7 +73,7 @@ function createNewRow(order,tableID){
 
     var itemTotal = (order.price + order.addedItemsTotal);
 
-    console.log(itemTotal)
+
 
     var kotaNameCell = row.insertCell(0);
     var kotaDescrCell = row.insertCell(1);
@@ -131,8 +132,7 @@ function createNewOrderCard(orderIDs,bunnies)
         bunny = bunnies[i]
         var t = 'ordersTable'+bunny.orderID;
         var table = document.getElementById(t);
-        console.log('Test table');
-        console.log('table',table);
+
         createNewRow(bunny,t);
 
     }
@@ -143,7 +143,7 @@ function createNewOrderCard(orderIDs,bunnies)
         console.log('Submit has been clicked');
 
         var orderID = $(this).prop("id").substring(13,$(this).prop("id").length);
-        console.log(orderID);
+
         if($(this).prop("id").includes('completeOrder'))
         {
 
