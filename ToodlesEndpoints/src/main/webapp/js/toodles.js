@@ -25,7 +25,8 @@ mainApp.controller('placedOrderController', function($scope) {
 
                               var apiName = 'menuApi';
                               var apiVersion = 'v1';
-                              var apiRoot = 'https://' + window.location.host + '/_ah/api';
+                             // var apiRoot = 'https://' + window.location.host + '/_ah/api';
+                              var apiRoot = 'https://xenon-lantern-213109.appspot.com/_ah/api';
                               gapi.client.load(apiName, apiVersion, function() {
                                 $scope.is_backend_ready = true;
                                 $scope.list();

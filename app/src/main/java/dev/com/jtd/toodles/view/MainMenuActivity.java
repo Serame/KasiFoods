@@ -41,6 +41,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.facebook.AccessToken;
 
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
@@ -194,7 +195,7 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
 
 
 
-        //testToodlesDBAO();
+        testToodlesDBAO();
 
        /* bunniesTask = new NetworkAsyncTask(pd,this);
         bunniesTask.execute(new Pair<Context, String>(this,MENU_REQ_ID));*/
@@ -206,20 +207,10 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
 
         ToodlesDBAO t = new ToodlesDBAO(this);
         //t.deleteAllOrders();
-
-
-
-        int[] ids = t.getDistinctOrderIDs();
-
-        for(int i:ids)
+        ArrayList<PlacedOrders> pl = t.getORderHistory();
+        for(PlacedOrders p : pl)
         {
-            PlacedOrders pl = t.getOrderHistoryString(i);
-            Log.w("OrderDescrID",pl.getOrderID()+"");
-            Log.w("OrderAmount",pl.getTotamount()+"");
-            Log.w("OrderDate",pl.getCompletionDate());
-            Log.w("OrderDescr ",pl.getOrderDescription().toString());
-
-
+            Log.w("Order: ",p.getItemDescr());
         }
 
 
@@ -401,11 +392,17 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
 
     private void populateRecyclerView(ArrayList<BunniesCartItem> bunniesMenu)
     {
-        bunnyAdapter = new BunnyAdapter(bunniesMenu);
+        bunnyAdapter = new BunnyAdapter(bunniesMenu,this);
         bunniesRecyclerView.setAdapter(bunnyAdapter);
         bunnyAdapter.notifyDataSetChanged();
 
         initSwipe();
+    }
+
+    public void updateLabels(int count,double total)
+    {
+        txtMainCount.setText(String.valueOf(count));
+        txtMainTotal.setText("R"+ String.valueOf(total));
     }
 
     private void initSwipe()
@@ -487,39 +484,6 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
 
         populateRecyclerView(bunniesList);
 
-        /*ArrayList<BunniesCartItem> bunniesLIst = null;
-        if(data == null)
-            Log.w("JSON","Data from Aysnc task is null");
-
-        else {
-            try {
-                bunniesLIst = new ArrayList<BunniesCartItem>();
-                JSONObject bunnyJSON = null;
-
-                Bunny bunny = null;
-                BunniesCartItem cartItem = null;
-                JSONArray menuArray = new JSONObject(data).getJSONArray("items");
-                if (menuArray != null) {
-                    for (int x = 0; x <= menuArray.length() - 1; x++) {
-                        bunnyJSON = menuArray.getJSONObject(x);
-                        bunny = new Bunny(bunnyJSON.getInt("id"),
-                                bunnyJSON.get("descr").toString(),
-                                bunnyJSON.getDouble("price"));
-                        bunny.setName(bunnyJSON.get("name").toString());
-                        cartItem = new BunniesCartItem(bunny,null,null);
-                        cartItem.setParentInd('Y');
-                        bunniesLIst.add(cartItem);
-
-                        
-
-                    }
-
-
-                }
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }*/
 
 
     }
@@ -549,6 +513,7 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
             bunniesCart.clearCart();
             txtMainTotal.setText("R"+bunniesCart.getTotal());
             txtMainCount.setText(""+bunniesCart.getCount());
+            bunnyAdapter.notifyDataSetChanged();
         }
 
 

@@ -3,6 +3,7 @@ package dev.com.jtd.toodles.view;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,7 +14,7 @@ import android.view.View;
 import dev.com.jtd.toodles.R;
 
 
-public class NavItemsActivity extends AppCompatActivity {
+public class NavItemsActivity extends AppCompatActivity implements OrderHistoryFragment.OnFragmentInteractionListener {
 
     private static String HISTORY_FRAGMENT_TAG = "HistoryFragment";
 
@@ -33,4 +34,13 @@ public class NavItemsActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
+    }
 }

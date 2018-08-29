@@ -25,7 +25,9 @@
     <string name="login_error_message">Incorrect credentials!</string>
     <string name="invalid_email">Invalid</string>
 
-    <string name="signup_link">Don\'t have an account? <a href="http://10.0.3.2:8080/register.html">SignUp here</a></string>
+    <!--<string name="signup_link">Don\'t have an account? <a href="http://10.0.3.2:8080/register.html">SignUp here</a></string>-->
+    <string name="signup_link">Don\'t have an account? <a href="https://xenon-lantern-213109.appspot.com/register.html">SignUp here</a></string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -45,7 +47,9 @@
     <string name="temp_price">R00.00</string>
     <string name="title_activity_nav_items">NavItemsActivity</string>
 
-
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 
 </resources>
