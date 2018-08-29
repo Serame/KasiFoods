@@ -63,6 +63,5 @@
     <orderEntry type="library" exported="" name="mysql-connector-java-5.1.22-bin" level="project" />
     <orderEntry type="library" exported="" name="json-org" level="project" />
     <orderEntry type="library" exported="" name="gson-2.6.2" level="project" />
-    <orderEntry type="library" exported="" name="ToodlesEndpoints.ToodlesEndpoints-android-endpoints" level="project" />
   </component>
 </module>

@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="f7036962930be7ec458917abc4ee515b784ae893">
+        sha1="3c05f58a09dd96989e431dd90ec7df6994b83ed9">
         <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\ToodlesEndpoints-android-endpoints_06e34ae113b3ca76b966dca67a5d5e44a67316c3.jar" />
     </item>
     <item
@@ -153,15 +153,6 @@
         revision="26.0.2"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
         <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_a4a29b683ee27684841af38e33df0dcdcd2fd6aa.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="e31395df564476296a5eca00a291e9c3eed5af82">
-        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1a7dd3ce2f2f375a0f621165035c32e7013c457b\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -234,15 +225,6 @@
         revision="26.0.2"
         sha1="cdebcd9e0580b35115f655f8dc8ed7a66a8ef0fc">
         <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_32a7ad47bc647a72c2f2af33b2c4db43250a9181.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\libs\volley.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_f6f3b8583dd8165b6021bbfa7f75177cfa3a3304\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -344,15 +326,6 @@
         <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_5be706d1e6216381864badbd3df077b6f41b98c7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\gson-2.6.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
-        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.6.2_8efe82f5ba6426f8616fd2592744466a16ffd348\classes.dex" />
-    </item>
-    <item
         is-multidex="false"
         jar="C:\Users\HP Laptop\.android\build-cache\dfb4bb51e5747c243b7b9fba9f5e242974509913\output\jars\classes.jar"
         jumboMode="true"
@@ -381,6 +354,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\volley_f6f3b8583dd8165b6021bbfa7f75177cfa3a3304.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\HP Laptop\.android\build-cache\7ba01293b6039b97f036827695dad690a6db11e3\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -396,15 +378,6 @@
         revision="26.0.2"
         sha1="b432e82447a3af781e927b9ba0bbb9fe2a496d4a">
         <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_c1ce4012119ab8b8392cea1819508be2614f25f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\libs\volley.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\volley_f6f3b8583dd8165b6021bbfa7f75177cfa3a3304.jar" />
     </item>
     <item
         is-multidex="false"
@@ -450,15 +423,6 @@
         revision="26.0.2"
         sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
         <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\pre-dexed\debug\classes_05379e6b72450e54a654224f57672933dcce3144.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\HP Laptop\Android Projects\KasiFoods\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_93e679c9e009c4e894f8bb846aa4eb2a3c3f7645\classes.dex" />
     </item>
     <item
         is-multidex="false"
