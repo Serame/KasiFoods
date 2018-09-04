@@ -134,7 +134,6 @@ public class AppController extends Application {
     public  int getBunnySessionID()
     {
         bunnySessionID++;
-        Log.w("AppCotroller","BunnySessionID: "+bunnySessionID);
         return bunnySessionID;
     }
 

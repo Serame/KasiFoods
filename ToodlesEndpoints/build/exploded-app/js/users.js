@@ -35,6 +35,7 @@ $(document).ready(function(){
         var cell = $('#cell').val();
         var email = $('#email').val();
         var password = $('#password').val();
+        var confirmPassword = $('#password_confirmation').val();
         var dateofbirth = $('#datofbirth').val();
         var gender;
 
@@ -65,11 +66,11 @@ $(document).ready(function(){
                                 );
 
          $('#first_name').val('');
-         var surname = $('#surname').val('');
-         var cell = $('#cell').val('');
-         var email = $('#email').val('');
-         var password = $('#password').val('');
-         //$('#datofbirth').val('');
+         $('#surname').val('');
+         $('#cell').val('');
+         $('#email').val('');
+         $('#password').val('');
+         $('#password_confirmation').val('');
          $('#datofbirth').attr('value', '');
 
 

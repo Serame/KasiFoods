@@ -51,13 +51,14 @@ public class BunniesCartAdapter extends RecyclerView.Adapter<BunniesCartAdapter.
         appController = AppController.getInstance();
         this.bunniesCart = appController.getBunniesCart();
         this.cartItemList = bunniesCart.getAllBunniesItem();
+        Log.w("NumberOFBunnies",cartItemList.size()+"");
         this.context = context;
         listOnDisplay = new HashMap<Integer, BunniesCartItem>();
         cartActivity = (CartActivity)context;
 
         bunniesIngredientsPerBun = appController.getBunniesIngredientsPerBun();
 //        Log.w("BunniesAdapter()","BunniesIngredeitnsPerBun is empty "+bunniesIngredientsPerBun.isEmpty());
-       ingredients = appController.getIngredients();
+        ingredients = appController.getIngredients();
  //       Log.w("BunniesAdapter()","Ingredients is empty "+ingredients.isEmpty());
      /*   bunniesTask = new NetworkAsyncTask(null, this);
         bunniesTask.execute(new Pair<Context, String>(context, CartActivity.INGREDIENTS_REQ_ID));*/
@@ -79,19 +80,24 @@ public class BunniesCartAdapter extends RecyclerView.Adapter<BunniesCartAdapter.
     public void onBindViewHolder(BunniesCartViewHolder holder, int position) {
 
         Log.w("onBindView","Entered onBindViewMethod");
+
        // bunniesCart.getCartItemAt(position).setParentInd('Y'); //This is where the Bunnies get their ParentIND status set
     //    bunniesCart.getCartItemAt(position).setParentID(0);     //The ParentID for All Parents will be Zero
       //  bunniesCart.getCartItemAt(position).setBunnySessionID(position); // The CartPosition will always be the child's ParentID
         //BunniesCartItem cartItem = cartItemList.get(position);
         BunniesCartItem cartItem = bunniesCart.getAllBunniesItem().get(position);
+        Log.w("CartIemDisplay",cartItem.getParentInd()+" "+cartItem.getBunny().toString());
         listOnDisplay.put(new Integer(position),cartItem);    /*Instead of using the cartItem instance, I use the one in the listOnDisplay because
                                                                 it makes it possible for us to update the modified items, the list on displays
                                                                  holds an ID to every item on the list*/
 
         StringBuffer addedItems = new StringBuffer("");
-        ArrayList<BunniesCartItem> ai = bunniesCart.getBunnyIngredients(bunniesCart.getCartItemAt(position).getBunnySessionID());
+        ArrayList<BunniesCartItem> ai = bunniesCart.getBunnyIngredients(cartItem.getBunnySessionID());
+
         for(int x = 0; x <= ai.size()-1; x++)
         {
+
+            Log.w("AI",ai.get(x).getBunny().getDescr()+" ParentID: "+ai.get(x).getParentID()+"- ParentIND: "+ai.get(x).getParentInd());
             if(x == 0)
                 addedItems.append(ai.get(x).getBunny().getDescr());
             else
@@ -105,10 +111,8 @@ public class BunniesCartAdapter extends RecyclerView.Adapter<BunniesCartAdapter.
         else
             holder.txtCartName.setText("No Name");
 
-
         holder.txtAdded.setText(addedItems.toString());
         holder.txtSubtracted.setText("");
-
         holder.txtCartPrice.setText("R"+cartItem.getBunny().getPrice()+"");
         holder.txtCartDescr.setText(cartItem.getBunny().getDescr());
         holder.position = position;
@@ -121,7 +125,6 @@ public class BunniesCartAdapter extends RecyclerView.Adapter<BunniesCartAdapter.
     public BunniesCart getUpdatedBunniesCart()
     {
         return bunniesCart;
-
     }
 
 
@@ -153,7 +156,6 @@ public class BunniesCartAdapter extends RecyclerView.Adapter<BunniesCartAdapter.
         if(ingredientsPerBun == null && allIngredients == null)
         {
             Log.w("Ingredients ","Ingredients list is empty");
-
         }
         else
         {

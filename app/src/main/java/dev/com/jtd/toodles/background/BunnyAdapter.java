@@ -61,7 +61,8 @@ public class BunnyAdapter  extends RecyclerView.Adapter<BunnyAdapter.BunnyViewHo
         holder.lblDescription.setText(bunny.getDescr());
         holder.lblItemName.setText(bunny.getName());
         holder.cartItem = bunniesCartItem;
-        listOnDisplay.put(new Integer(position),bunniesCartItem);
+        holder.lblIndItemCount.setText(String.valueOf(0));
+        listOnDisplay.put(position,bunniesCartItem);
 
     }
 
@@ -117,14 +118,14 @@ public class BunnyAdapter  extends RecyclerView.Adapter<BunnyAdapter.BunnyViewHo
                 public void onClick(View view) {
                     indItemCount++;
                     lblIndItemCount.setText(String.valueOf(indItemCount));
-                    cartItem.setBunnySessionID(appController.getBunnySessionID());
+                    int sessionID = appController.getBunnySessionID();
+                    cartItem.setBunnySessionID(sessionID);
                     cartItem.setParentInd('Y');
                     cartItem.setParentID(0);
                     bunniesCart.addToCart(cartItem);
                     mma.updateLabels(bunniesCart.getCount(),bunniesCart.getTotal());
 
-
-                    Log.w("BunnyAdapter","Count: "+bunniesCart.getCount()+" Total Price: R"+bunniesCart.getTotal());
+                    Log.w("CartItemSessionID",String.valueOf(sessionID));
 
                 }
 

@@ -57,8 +57,8 @@ public class IngredientsFragment extends DialogFragment{
         bunnyIngredientsPerBun = (ArrayList<BunnyIngredients>) args.get("BunniesIngredients");
         ingredients = (ArrayList<Bunny>) args.get("AllIngredients");
 
-
         id = args.getInt("Parent_ID");
+        Log.w("PassedID",id+"");
         bunniesCartItem = (BunniesCartItem) args.getSerializable(BunniesCartItem.CLASS_NAME);
         bunniesCart = (BunniesCart) args.getSerializable("BunniesCart");
 
@@ -75,24 +75,7 @@ public class IngredientsFragment extends DialogFragment{
         bunniesCart = appController.getBunniesCart();
         bunnyIngredientsPerBun =  appController.getBunniesIngredientsPerBun();
         ingredients = appController.getIngredients();
-        if(ingredients == null)
-        {
-            Log.w("IngrFrag","Ingredients is null");
-        }
-        else
-        {
-            Log.w("IngrFrag","Ingredients is not null");
 
-        }
-
-        if(bunnyIngredientsPerBun == null)
-        {
-            Log.w("IngrFrag","Ingredients is null");
-        }
-        else
-        {
-            Log.w("IngrFrag","Ingredients is not null");
-        }
     }
 
     @Nullable
@@ -108,8 +91,6 @@ public class IngredientsFragment extends DialogFragment{
         ad = new IngredientsListAdapter(this.getActivity(),temp);
 
         ingredientsListView.setAdapter(ad);
-
-
         HandleButtonEvents();
         getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         return view;
@@ -203,26 +184,26 @@ public class IngredientsFragment extends DialogFragment{
                 if(action.equals("ADD")) {
 
                     HashMap<Integer,BunnyIngredients> items = ad.getSelectedItems();
-
                     BunnyIngredients bunIngr = null;
                     Bunny bunny = null;
                     BunniesCartItem bCartItem = null;
                     for (Integer integer : items.keySet()) {
+
                         bunIngr = items.get(integer);
                         bunny = new Bunny(bunIngr.getIngr_id(), bunIngr.getDescr(), bunIngr.getPrice());
                         bunny.setName(bunIngr.getDescr());
-                        Log.w("IngredientsFrag", bunny.toString());
-                        Log.w("ParentID", "" + id);
+                        Log.w("SelectedAction","Addition");
 
                         bCartItem = new BunniesCartItem(bunny, null, null);
                         bCartItem.setParentID(id);
                         bCartItem.setParentInd('N');
                         bCartItem.setBunnySessionID(0);
+                        Log.w("ValueofID",id+"");
 
                         Log.w("BCartItem", bCartItem.toString());
                         Log.w("BCatItemPIND", bCartItem.getParentInd() + "PID" + bCartItem.getParentID());
                         bunniesCart.addToCart(bCartItem);
-                        bunniesCartItem.addToAddedItems(bCartItem.getBunnyItemTotal());
+                            bunniesCartItem.addToAddedItems(bCartItem.getBunnyItemTotal());
                         //bunniesCartItem.setTotalWithAddedItems(bunniesCartItem.getTotalWithAddedItems()+bCartItem.getBunnyItemTotal());
 
                     }

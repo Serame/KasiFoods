@@ -56,7 +56,7 @@
             android:label="@string/title_activity_nav_items"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".view.MenuActivity"
+            android:name=".view.ShopActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_menu"
             android:theme="@style/FullscreenTheme"></activity>

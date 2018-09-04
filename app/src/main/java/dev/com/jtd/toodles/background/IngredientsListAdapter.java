@@ -31,7 +31,6 @@ public class IngredientsListAdapter extends ArrayAdapter {
     private HashMap<Integer,BunnyIngredients> selectedItems;
     private SparseIntArray checkeckedItems;
 
-
     public IngredientsListAdapter(Context ctx,ArrayList<BunnyIngredients> inLst)
     {
         super(ctx,R.layout.ingredients_single_row,inLst);
@@ -39,8 +38,6 @@ public class IngredientsListAdapter extends ArrayAdapter {
         this.ingredientsList = inLst;
         this.selectedItems = new HashMap<Integer,BunnyIngredients>();
         checkeckedItems = new SparseIntArray();
-
-
     }
 
     
