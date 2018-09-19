@@ -113,18 +113,15 @@
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-compat-27.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-base-9.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.zxing:core:3.3.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-marketing-4.35.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-common-4.35.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-vector-drawable-27.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.oauth-client:google-oauth-client:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-core-4.36.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-core-utils-27.0.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-login-4.35.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:recyclerview-v7-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.firebase:firebase-messaging-9.0.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-share-4.35.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-android-sdk-4.35.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-places-4.36.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.bumptech.glide:glide:3.7.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-applinks-4.35.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-messenger-4.36.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:design-26.1.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4-27.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.parse.bolts:bolts-android:1.4.0@jar" level="project" />
@@ -136,11 +133,13 @@
     <orderEntry type="library" exported="" name="Gradle: com.google.firebase:firebase-iid-9.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.parse.bolts:bolts-applinks:1.4.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: android.arch.core:common:1.0.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-common-4.36.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-media-compat-27.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-core-ui-27.0.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-core-4.35.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-marketing-4.36.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.api-client:google-api-client:1.23.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.http-client:google-http-client-jackson2:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-login-4.36.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:C.\Users\HP Laptop\Android Projects\KasiFoods\app\libs\volley.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-annotations:27.0.2@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.code.findbugs:jsr305:2.0.1@jar" level="project" />
@@ -152,12 +151,13 @@
     <orderEntry type="library" exported="" name="Gradle: com.google.firebase:firebase-analytics-9.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.firebase:firebase-core-9.0.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:appcompat-v7-27.0.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-places-4.35.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.api-client:google-api-client-android:1.23.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-android-sdk-4.36.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-share-4.36.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.android.gms:play-services-tasks-9.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-applinks-4.36.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.http-client:google-http-client-android:1.23.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.guava:guava-jdk5:17.0@jar" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.facebook.android:facebook-messenger-4.35.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: android.arch.lifecycle:runtime-1.0.3" level="project" />
     <orderEntry type="library" exported="" name="Gradle: android.arch.lifecycle:common:1.0.3@jar" level="project" />
     <orderEntry type="module" module-name="ToodlesEndpoints" exported="" />

@@ -39,7 +39,7 @@
     <string name="closeDrawer">close_drawer</string>
 
     <string name="nav_myProfile">My Profile</string>
-    <string name="nav_order_history">Order History</string>
+    <string name="nav_order_history">ORDER HISTORY</string>
     <string name="nav_settings">Setting</string>
     <string name="nav_about_us">About Us</string>
     <string name="nav_logout">Logout</string>
@@ -47,9 +47,11 @@
     <string name="temp_price">R00.00</string>
     <string name="title_activity_nav_items">NavItemsActivity</string>
 
-    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_menu">MAIN MENU</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_shops">FIND SHOP</string>
+    <string name="serach_btn_title">SEARCH SHOPS</string>
 
 
 

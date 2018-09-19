@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".view.ShopActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <android.support.v7.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/srchShop"
+            android:background="@color/liteBrown"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+        </android.support.v7.widget.SearchView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnShop"
+            android:text="@string/serach_btn_title"
+            android:background="@color/liteBrown"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listKasis"/>
+        </android.support.design.widget.AppBarLayout>
+</LinearLayout>
