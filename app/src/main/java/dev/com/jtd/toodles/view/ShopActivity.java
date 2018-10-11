@@ -1,95 +1,60 @@
 package dev.com.jtd.toodles.view;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 
+import static java.lang.Math.toIntExact;
+
+import app.AppController;
 import dev.com.jtd.toodles.R;
+import dev.com.jtd.toodles.background.serviceworkers.MenuClientServerComm;
 import dev.com.jtd.toodles.background.KasiListAdapter;
+import dev.com.jtd.toodles.background.serviceworkers.ShopClientServerComm;
+import dev.com.jtd.toodles.model.Shop;
+
 
 public class ShopActivity extends Activity implements ExpandableListView.OnGroupExpandListener, ExpandableListView.OnChildClickListener {
 
     private ExpandableListView listViewKasi;
     private KasiListAdapter listKasiAdapter;
     private List<String> kasisList;
-    private HashMap<String,List<String>> shopsList;
+    private HashMap<String,List<Shop>> shopsList;
+    private ProgressDialog pd;
+    private AppController appController;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop);
+        initItems();
+
+
+    }
+
+    private void initItems()
+    {
 
         listViewKasi = findViewById(R.id.listKasis);
         listViewKasi.setOnGroupExpandListener(this);
         listViewKasi.setOnChildClickListener(this);
-        prepareListDate();
-        listKasiAdapter = new KasiListAdapter(this,kasisList,shopsList);
-        listViewKasi.setAdapter(listKasiAdapter);
-    }
-
-    private void prepareListDate()
-    {
-        kasisList = new ArrayList<String>();
-        shopsList = new HashMap<String,List<String>>();
-    
-        kasisList.add("Kagiso");
-        kasisList.add("Thembisa");
-        kasisList.add("Protea");
-        kasisList.add("Soshanguve");
-        kasisList.add("Mamelodi");
-        kasisList.add("Munsiville");
-
-        List<String> kagiso = new ArrayList<>();
-        kagiso.add("Star-M Foods");
-        kagiso.add("Mdeshu's Chicken");
-        kagiso.add("Sedibeng African Foods");
-        kagiso.add("Tso's Butchery");
-        kagiso.add("Oscar Kotas");
-        kagiso.add("Punkies");
-        kagiso.add("First Stop Vlei");
-
-        List<String> thembisa = new ArrayList<>();
-        thembisa.add("View Kotas");
-        thembisa.add("Difateng");
-        thembisa.add("Kaalfonteing Foods");
-        thembisa.add("Ivory Kotas");
-        thembisa.add("Bunny Chows");
-
-        List<String> protea = new ArrayList<>();
-        protea.add("Extension 3 Kotas");
-        protea.add("Extension 5 Kotas");
-        protea.add("Social link foods");
-        protea.add("Second Stop");
-
-        List<String> sosha = new ArrayList<>();
-        sosha.add("Diphatlo tsa Chongo");
-        sosha.add("Block M Chips");
-        sosha.add("Transfer Foods");
-        sosha.add("Telkom Diphatlo spot");
-        sosha.add("Vick's Cafe");
-        sosha.add("Short Left");
-        sosha.add("McNoose Cafe");
-        sosha.add("Complex Foods");
-
-        List<String> munsiville = new ArrayList<>();
-        munsiville.add("Paul's Chicken Dust");
-        munsiville.add("Mpumpu kotas");
-        munsiville.add("Skopo Foods");
-        munsiville.add("Brick's Cafe");
-
-        shopsList.put(kasisList.get(0),kagiso);
-        shopsList.put(kasisList.get(1),thembisa);
-        shopsList.put(kasisList.get(2),protea);
-        shopsList.put(kasisList.get(3),sosha);
-        shopsList.put(kasisList.get(4),munsiville);
+        pd = new ProgressDialog(this);
+        pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        ShopClientServerComm scsm = new ShopClientServerComm();
+        scsm.setContext(this);
+        scsm.setProgressDialog(pd);
+        scsm.getKasiShops();
+        appController = AppController.getInstance();
 
     }
 
@@ -98,8 +63,34 @@ public class ShopActivity extends Activity implements ExpandableListView.OnGroup
 
     }
 
+    public void requestKasis(HashMap<String,List<Shop>> listKasiShop)
+    {
+        shopsList = listKasiShop;
+        Set<String> keysList = listKasiShop.keySet();
+        List<String> kasis = new ArrayList<>();
+
+        for(String key : keysList){
+            kasis.add(key);
+        }
+        this.listKasiAdapter = new KasiListAdapter(this,kasis,listKasiShop);
+        this.listViewKasi.setAdapter(listKasiAdapter);
+        listKasiAdapter.notifyDataSetChanged();
+
+    }
+
     @Override
     public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPos, int childPos, long l) {
+
+//        Log.w("ClickedChld",expandableListView.getExpandableListAdapter().getChild(groupPos,childPos).toString()+" ID: "+expandableListView.getExpandableListAdapter().getChildId(groupPos,childPos));
+//        Log.w("ClickedParent",expandableListView.getExpandableListAdapter().getGroup(groupPos).toString()+" ID: "+expandableListView.getExpandableListAdapter().getGroupId(groupPos));
+
+        List<Shop> ls = shopsList.get(expandableListView.getExpandableListAdapter().getGroup(groupPos));
+        int id = (int) expandableListView.getExpandableListAdapter().getChildId(groupPos,childPos);
+        Shop selectedShop = ls.get(childPos);
+
+        Log.w("SelectedShop",selectedShop.toString());
+
+        this.appController.setSelectedShop(selectedShop);
 
         Intent intent = new Intent(this,MainMenuActivity.class);
         startActivity(intent);

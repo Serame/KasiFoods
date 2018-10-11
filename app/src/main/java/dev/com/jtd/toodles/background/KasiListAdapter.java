@@ -9,24 +9,31 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 import dev.com.jtd.toodles.R;
+import dev.com.jtd.toodles.model.Shop;
 
 public class KasiListAdapter extends BaseExpandableListAdapter {
 
     private Context context;
     private List<String> listHeaders_kasis;
-    private HashMap<String,List<String>> listData_shops;
+    private List list_shops;
+    private HashMap<String,List<Shop>> listData_shops;
 
 
 
 
-    public KasiListAdapter(Context context, List<String> listHeaders_kasis, HashMap<String, List<String>> listData_shops) {
+    public KasiListAdapter(Context context, List<String> listHeaders_kasis, HashMap<String, List<Shop>> listData_shops) {
+
         this.context = context;
         this.listHeaders_kasis = listHeaders_kasis;
         this.listData_shops = listData_shops;
+
+
+
     }
 
     @Override
@@ -58,8 +65,10 @@ public class KasiListAdapter extends BaseExpandableListAdapter {
     @Override
     public Object getChild(int groupPosition, int childPosition) {
 
+        String shop = listData_shops.get(this.listHeaders_kasis.get(groupPosition)).get(childPosition).getShopName();
 
-        return this.listData_shops.get(this.listHeaders_kasis.get(groupPosition)).get(childPosition);
+
+        return shop;
 
     }
 
@@ -107,6 +116,7 @@ public class KasiListAdapter extends BaseExpandableListAdapter {
 
 
         final String childText = (String)getChild(groupPostion,childPostion);
+
         View childView;
 
         if(convertView == null)

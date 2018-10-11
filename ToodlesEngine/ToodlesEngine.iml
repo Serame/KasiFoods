@@ -23,8 +23,8 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/build/classes/main" />
-    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <output url="file://$MODULE_DIR$/build/classes/java/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
@@ -40,8 +40,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="servlet-api-2.5" level="project" />
-    <orderEntry type="library" exported="" name="json-simple-1.1" level="project" />
-    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.22-bin" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: servlet-api-2.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: json-simple-1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: mysql-connector-java-5.1.22-bin" level="project" />
   </component>
 </module>

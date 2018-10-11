@@ -16,7 +16,6 @@ import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
 
 import org.json.JSONException;
 
@@ -29,13 +28,13 @@ import dev.com.jtd.toodles.R;
 import dev.com.jtd.toodles.background.BunniesCart;
 import dev.com.jtd.toodles.background.BunniesNetworkManager;
 import dev.com.jtd.toodles.background.BunniesOrderAdapter;
-import dev.com.jtd.toodles.background.ClientServerCommunicator;
+import dev.com.jtd.toodles.background.serviceworkers.MenuClientServerComm;
+import dev.com.jtd.toodles.background.serviceworkers.OrdersClientServerComm;
 import dev.com.jtd.toodles.model.BunniesCartItem;
 import dev.com.jtd.toodles.model.BunniesMessage;
-import dev.com.jtd.toodles.model.Bunny;
-import dev.com.jtd.toodles.model.BunnyIngredients;
 import dev.com.jtd.toodles.model.OrderDescr;
 import dev.com.jtd.toodles.model.OrderWrapper;
+import dev.com.jtd.toodles.model.Shop;
 import dev.com.jtd.toodles.model.User;
 
 public class OrdersActivity extends AppCompatActivity implements BunniesNetworkManager, View.OnClickListener {
@@ -55,6 +54,8 @@ public class OrdersActivity extends AppCompatActivity implements BunniesNetworkM
     private TextView txtOrderCount, txtOrdertotal, txtOrderCheckOut;
     private ImageView imgCheckout;
     private SharedPreferences loginPreferences;
+    private AppController appController;
+    private Shop selectedShop;
 
 
 
@@ -146,11 +147,11 @@ public class OrdersActivity extends AppCompatActivity implements BunniesNetworkM
         public void onClick(View view) {
             if (view == findViewById(R.id.imgCheckout))
         {
-            ClientServerCommunicator csm = new ClientServerCommunicator();
-            csm.setContext(this);
-            csm.setProgressDialog(pd);
+            OrdersClientServerComm ocsm = new OrdersClientServerComm();
+            ocsm.setContext(this);
+            ocsm.setProgressDialog(pd);
             try {
-                csm.placeNewOrder(createOrder());
+                ocsm.placeNewOrder(createOrder(),selectedShop.getShopID());
                 //csm.tesing(createOrder());
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -181,6 +182,9 @@ public class OrdersActivity extends AppCompatActivity implements BunniesNetworkM
 
     private void initItems()
     {
+
+        this.appController = AppController.getInstance();
+        selectedShop = this.appController.getSelectedShop();
 
         loginPreferences = getSharedPreferences(LoginActivity.LOGIN_SHARED_PREFERENCES, Context.MODE_PRIVATE);
         orderRecyclerView = (RecyclerView) findViewById(R.id.listCheckOutItems);

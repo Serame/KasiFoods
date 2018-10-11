@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: endpoints-framework-guice-2.0.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.endpoints/endpoints-framework-guice/2.0.9/75985ae113f48b1e540376461d6277ddc8742741/endpoints-framework-guice-2.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.endpoints/endpoints-framework-guice/2.0.9/542ba2b8c5989387bcb5a976e7282999e66befaf/endpoints-framework-guice-2.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

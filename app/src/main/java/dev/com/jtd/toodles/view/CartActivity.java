@@ -4,10 +4,8 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -21,7 +19,7 @@ import java.util.ArrayList;
 import app.AppController;
 import dev.com.jtd.toodles.R;
 import dev.com.jtd.toodles.background.BunniesNetworkManager;
-import dev.com.jtd.toodles.background.ClientServerCommunicator;
+import dev.com.jtd.toodles.background.serviceworkers.MenuClientServerComm;
 import dev.com.jtd.toodles.background.NetworkAsyncTask;
 import dev.com.jtd.toodles.background.BunniesCart;
 import dev.com.jtd.toodles.background.BunniesCartAdapter;
@@ -34,6 +32,7 @@ public class CartActivity extends AppCompatActivity implements BunniesNetworkMan
     private BunniesCart bunniesCart;
     private BunniesCartAdapter bunniesCartAdapter;
     private RecyclerView recyclerView;
+
     private ProgressDialog pd;
     private NetworkAsyncTask bunniesTask;
     private ArrayList<Bunny> ingredients;
@@ -47,7 +46,7 @@ public class CartActivity extends AppCompatActivity implements BunniesNetworkMan
     private ImageView imgMovetToOrders,imgCartClear;
     public static final String INGREDIENTS_REQ_ID = "INGREDIENTS";
     public static final String CLASS_NAME = "dev.com.jtd.toodles.view.CartActivity";
-    private ClientServerCommunicator csm;
+    private MenuClientServerComm csm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,7 +85,7 @@ public class CartActivity extends AppCompatActivity implements BunniesNetworkMan
         pd = new ProgressDialog(this);
         pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
        // appController.setBunniesCart(bunniesCart);
-      /*  csm = new ClientServerCommunicator();
+      /*  csm = new MenuClientServerComm();
         csm.setContext(this);
         csm.setProgressDialog(pd);
         csm.requestBunnies(Bunny.ITEMTYPE_INGREDIENT);

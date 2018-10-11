@@ -1,14 +1,8 @@
 package app;
 
 import android.app.Application;
-import android.content.Context;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.Signature;
 import android.text.TextUtils;
-import android.util.Base64;
 import android.util.Log;
-import android.util.Pair;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -16,19 +10,16 @@ import com.android.volley.toolbox.Volley;
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
 import com.google.firebase.iid.FirebaseInstanceId;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 import dev.com.jtd.toodles.background.BunniesCart;
-import dev.com.jtd.toodles.background.ClientServerCommunicator;
-import dev.com.jtd.toodles.background.NetworkAsyncTask;
+import dev.com.jtd.toodles.background.serviceworkers.MenuClientServerComm;
 import dev.com.jtd.toodles.model.Bunny;
 import dev.com.jtd.toodles.model.BunnyIngredients;
+import dev.com.jtd.toodles.model.Kasi;
+import dev.com.jtd.toodles.model.Shop;
 
 /**
  * Created by serame on 10/5/2016.
@@ -47,6 +38,9 @@ public class AppController extends Application {
     private ArrayList<Bunny> ingredients;
     private String fireBaseToken;
     private GoogleAccountCredential credential;
+    private HashMap<String,List> listKasiShops;
+    private Kasi selectKasi;
+    private Shop selectedShop;
 
 
     @Override
@@ -56,10 +50,10 @@ public class AppController extends Application {
         super.onCreate();
         appControllerInstance = this;
         this.bunniesCart = new BunniesCart();
-        ClientServerCommunicator csm = new ClientServerCommunicator();
+        MenuClientServerComm csm = new MenuClientServerComm();
         csm.setContext(this);
-        csm.requestBunnies(Bunny.ITEMTYPE_INGREDIENT);
-        csm.requestIngredientsPerBun();
+       // csm.requestBunnies(Bunny.ITEMTYPE_INGREDIENT);
+        //csm.requestIngredientsPerBun();
         this.fireBaseToken = FirebaseInstanceId.getInstance().getToken();
         //Log.w("TheToken",fireBaseToken);
         /*NetworkAsyncTask bunniesTask = new NetworkAsyncTask(this);
@@ -84,9 +78,6 @@ public class AppController extends Application {
     {
         return this.credential;
     }
-
-
-
 
 
     public static synchronized  AppController getInstance()
@@ -116,6 +107,22 @@ public class AppController extends Application {
         if (mRequestQueue != null) {
             mRequestQueue.cancelAll(tag);
         }
+    }
+
+    public Kasi getSelectKasi() {
+        return selectKasi;
+    }
+
+    public void setSelectKasi(Kasi selectKasi) {
+        this.selectKasi = selectKasi;
+    }
+
+    public Shop getSelectedShop() {
+        return selectedShop;
+    }
+
+    public void setSelectedShop(Shop selectedShop) {
+        this.selectedShop = selectedShop;
     }
 
     public BunniesCart getBunniesCart()

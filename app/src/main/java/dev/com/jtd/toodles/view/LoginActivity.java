@@ -8,8 +8,6 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Html;
-import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.util.Patterns;
@@ -23,8 +21,9 @@ import org.json.JSONObject;
 
 import app.AppController;
 import dev.com.jtd.toodles.R;
-import dev.com.jtd.toodles.background.ClientServerCommunicator;
+import dev.com.jtd.toodles.background.serviceworkers.MenuClientServerComm;
 import dev.com.jtd.toodles.background.ToodlesDBAO;
+import dev.com.jtd.toodles.model.Shop;
 import dev.com.jtd.toodles.model.User;
 import com.facebook.AccessToken;
 import com.facebook.AccessTokenTracker;
@@ -39,7 +38,6 @@ import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
 import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
-import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.Arrays;
 
@@ -60,13 +58,15 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private SharedPreferences logingSession;
     private LoginButton facebookLogginButton;
     private ProfileTracker profileTracker;
-    private ClientServerCommunicator csm;
+    private MenuClientServerComm csm;
     private static LoginActivity thisInstance;
     private AccessToken accessToken;
     private String propicUrl = "";
     private SharedPreferences spSettings;
     private String accountName;
     private GoogleAccountCredential credential;
+    private Shop selectedShop;
+    private AppController appController;
 
 
     private CallbackManager mCallBackManager;
@@ -114,6 +114,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void initGoogleAccount()
     {
+
         spSettings = getSharedPreferences(SP_SETTINGS,Context.MODE_PRIVATE);
         credential = GoogleAccountCredential.usingAudience(this,"server:client_id:756161739003-9e1gefoeo2f9tsnrbjchtsn2shfq7q8k.apps.googleusercontent.com");
         setAccountName(spSettings.getString(ACCOUNT_NAME,null));
@@ -148,6 +149,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     {
         Log.w("SignIn","onCreate()");
 
+        appController = AppController.getInstance();
+        selectedShop = appController.getSelectedShop();
+
         txtSignUpHere = findViewById(R.id.txtSignUp);
         txtSignUpHere.setMovementMethod(LinkMovementMethod.getInstance());
 
@@ -156,7 +160,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         thisInstance = this;
         pd = new ProgressDialog(this);
         pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-        csm = new ClientServerCommunicator();
+        csm = new MenuClientServerComm();
         csm.setContext(this);
         csm.setProgressDialog(pd);
 
@@ -271,11 +275,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         fbUser.setCell("0000000000");
                         fbUser.setLoginType(User.LOGIN_TYPE_FACEBOOK);
                         Log.w("User",fbUser.toString());
-                        ClientServerCommunicator c = new ClientServerCommunicator();
+                        MenuClientServerComm c = new MenuClientServerComm();
                         c.setContext(thisInstance);
                         pd = new ProgressDialog(thisInstance);
                         pd.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-                        c.getSignIn(fbUser);
+                        c.getSignIn(fbUser,selectedShop.getShopID());
 
                     } catch (JSONException e) {
                         e.printStackTrace();
@@ -396,7 +400,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             user.setPassword(editPassword.getText().toString());
             user.setLoginType(User.LOGIN_TYPE_APP);
             try {
-                csm.getSignIn(user);
+                csm.getSignIn(user,selectedShop.getShopID());
             } catch (JSONException e) {
                 e.printStackTrace();
             }

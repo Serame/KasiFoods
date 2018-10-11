@@ -61,6 +61,7 @@ public class MenuEndpoint {
         }
 
         @ApiMethod(name = "testing", httpMethod = ApiMethod.HttpMethod.POST,
+                    path = "testing/test",
                     scopes = {Constants.EMAIL_SCOPE},
                     clientIds = {Constants.WEB_CLIENT_ID,
                                  Constants.ANDROID_CLIENT_ID,
@@ -91,6 +92,7 @@ public class MenuEndpoint {
         }
 
         @ApiMethod(name = "registerNewCustomer",
+                   path = "customers/register/",
                    httpMethod = ApiMethod.HttpMethod.POST)
         public ToodlesMessage registerNewCustomer(User user)
         {
@@ -128,8 +130,9 @@ public class MenuEndpoint {
         }
 
         @ApiMethod(name = "signIn",
+                   path = "customers/signin/",
                    httpMethod = ApiMethod.HttpMethod.POST,
-                   path = "signIn",
+                   //path = "signIn",
                    scopes = {Constants.EMAIL_SCOPE},
                    clientIds = {Constants.WEB_CLIENT_ID,
                                 Constants.ANDROID_CLIENT_ID,
@@ -148,7 +151,7 @@ public class MenuEndpoint {
             return u;
         }
 
-    @ApiMethod(name = "testUser",
+  /*  @ApiMethod(name = "testUser",
             httpMethod = ApiMethod.HttpMethod.POST,
             scopes = {Constants.EMAIL_SCOPE},
             clientIds = {Constants.WEB_CLIENT_ID,
@@ -164,10 +167,10 @@ public class MenuEndpoint {
 
         return tm;
 
-    }
+    }*/
 
     @ApiMethod(name = "updateShopFCMToken",
-                path = "updateShopFCMToken")
+                path = "fcm/updateShopFCMToken/")
     public ToodlesMessage updateShopFCMToken(@Named("refreshedToken") String refreshedToken)
     {
         ToodlesMessage message = new ToodlesMessage("");
@@ -191,7 +194,7 @@ public class MenuEndpoint {
 
     @ApiMethod(name = "insertNewOrder",
                    httpMethod = ApiMethod.HttpMethod.POST,
-                   path = "NewOrder",
+                   path = "orders/NewOrder/",
                 scopes = {Constants.EMAIL_SCOPE},
                 clientIds = {Constants.WEB_CLIENT_ID,
                         Constants.ANDROID_CLIENT_ID,
@@ -258,6 +261,7 @@ public class MenuEndpoint {
 
 
         @ApiMethod (name = "CreateNewOrder",
+                    path = "orders/createneworder/",
                     httpMethod = ApiMethod.HttpMethod.POST,
                     scopes = {Constants.EMAIL_SCOPE},
                     clientIds = {Constants.WEB_CLIENT_ID,
@@ -309,6 +313,7 @@ public class MenuEndpoint {
         }
 
         @ApiMethod (name = "GetNewOrderID",
+                    path ="orders/neworderid/",
                     scopes = {Constants.EMAIL_SCOPE},
                     clientIds = {Constants.WEB_CLIENT_ID,
                         Constants.ANDROID_CLIENT_ID,
@@ -332,7 +337,7 @@ public class MenuEndpoint {
 
         @ApiMethod (name = "GetMenuItems",
                     httpMethod = ApiMethod.HttpMethod.GET,
-                    path = "getMenuItems",
+                    path = "menu/getMenuItems/",
                     scopes = {Constants.EMAIL_SCOPE},
                     clientIds = {Constants.WEB_CLIENT_ID,
                         Constants.ANDROID_CLIENT_ID,
@@ -360,7 +365,7 @@ public class MenuEndpoint {
                         Constant.API_EXPLORER_CLIENT_ID},
                     audiences = {Constants.ANDROID_AUDIENCE})*/
        @ApiMethod(name = "closeOrder",
-                  path = "closeOrder")
+                  path = "orders/closeOrder/")
         public List<PlacedOrders> getClosedOrder(@Named("orderid") int orderID){
 
             ArrayList<PlacedOrders> placedOrdersList = null;
@@ -389,7 +394,7 @@ public class MenuEndpoint {
         }
 
 @ApiMethod(name="getPlacedOrders",
-           path="getPlaceOrders")
+           path="orders/getPlaceOrders/")
     public List<PlacedOrders> getPlacedOrders(@Named("status")String status){
 
         List<PlacedOrders> placedOrderses = null;
@@ -432,7 +437,7 @@ public class MenuEndpoint {
 
         @ApiMethod (name = "GetIngredients",
                 httpMethod = ApiMethod.HttpMethod.GET,
-                 path = "getIngredients",
+                 path = "menu/getIngredients/",
                 scopes = {Constants.EMAIL_SCOPE},
                 clientIds = {Constants.WEB_CLIENT_ID,
                         Constants.ANDROID_CLIENT_ID,

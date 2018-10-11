@@ -3,7 +3,6 @@ package dev.com.jtd.toodles.view;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Canvas;
 import android.os.Bundle;
@@ -14,12 +13,10 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.util.Log;
-import android.util.Pair;
 import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -29,37 +26,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonArrayRequest;
-import com.android.volley.toolbox.JsonObjectRequest;
-
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.facebook.AccessToken;
 
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
 
 import app.AppController;
 import dev.com.jtd.toodles.R;
 import dev.com.jtd.toodles.background.BunniesNetworkManager;
-import dev.com.jtd.toodles.background.ClientServerCommunicator;
+import dev.com.jtd.toodles.background.serviceworkers.MenuClientServerComm;
 import dev.com.jtd.toodles.background.NetworkAsyncTask;
 import dev.com.jtd.toodles.background.BunniesCart;
 import dev.com.jtd.toodles.background.ToodlesDBAO;
@@ -68,6 +46,7 @@ import dev.com.jtd.toodles.model.Bunny;
 import dev.com.jtd.toodles.background.BunnyAdapter;
 import dev.com.jtd.toodles.model.CircleTransform;
 import dev.com.jtd.toodles.model.PlacedOrders;
+import dev.com.jtd.toodles.model.Shop;
 import dev.com.jtd.toodles.model.User;
 
 
@@ -93,7 +72,7 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
     private TextView txtMainCount;
     private ImageView imgMoveToCart;
     private ImageView imgClearCart;
-    private ClientServerCommunicator clientServerCommunicator;
+    private MenuClientServerComm menuClientServerComm;
     private String name,loginType,surname,email;
     private NavigationView navView;
     private DrawerLayout drawerLayout;
@@ -102,6 +81,8 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
     private String proPicUrl;  //If Facebook login
     private TextView txtProfileName;
     private TextView txtProfileEmail;
+    private Shop selectecShop;
+
 
 
     public static final String ORDER_REQ_ID = "ORDERS";
@@ -113,9 +94,10 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.w("onCreate","Running the 1st Activity's onCreate");
 
         setContentView(R.layout.activity_main_menu);
+        appController = AppController.getInstance();
+        selectecShop = appController.getSelectedShop();
         name = getSharedPreferences(LoginActivity.LOGIN_SHARED_PREFERENCES,Context.MODE_PRIVATE).getString(User.NAME_COL,"SignIn");
         loginType = getSharedPreferences(LoginActivity.LOGIN_SHARED_PREFERENCES,Context.MODE_PRIVATE).getString(User.LOGIN_TYPE_COL,"No Data");
         surname = getSharedPreferences(LoginActivity.LOGIN_SHARED_PREFERENCES,Context.MODE_PRIVATE).getString(User.SURNAME_COL,"No Data");
@@ -123,13 +105,13 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
       //  new ToodlesDBAO(this).deleteAllOrders();
 
 
-        clientServerCommunicator = new ClientServerCommunicator();
-        clientServerCommunicator.setContext(getApplicationContext());
+        menuClientServerComm = new MenuClientServerComm();
+        menuClientServerComm.setContext(getApplicationContext());
 
-        clientServerCommunicator.requestBunnies(Bunny.ITEMTYPE_BUNNY);
-        clientServerCommunicator.requestIngredientsPerBun();
+        menuClientServerComm.requestBunnies(Bunny.ITEMTYPE_BUNNY,selectecShop.getShopID());
+        menuClientServerComm.requestIngredientsPerBun(selectecShop.getShopID());
       /*  try {
-            clientServerCommunicator.tesing();
+            menuClientServerComm.tesing();
         } catch (JSONException e) {
             e.printStackTrace();
         }*/
@@ -176,7 +158,6 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
         bunniesRecyclerView.addItemDecoration(new GridSpacingItemDecoration(1,dpToPx(5),false));
         bunniesRecyclerView.setAdapter(bunnyAdapter);
         bunniesRecyclerView.setScrollBarStyle(View.SCROLLBARS_INSIDE_INSET);
-        appController = AppController.getInstance();
         bunniesCart = appController.getBunniesCart();
         mainBottomToolBar = (Toolbar) findViewById(R.id.mainBottomToolbar);
         txtMainCount = (TextView) mainBottomToolBar.findViewById(R.id.txtMainCount);
@@ -189,10 +170,9 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
         txtMainCount.setText(""+bunniesCart.getCount());
 
 
-        clientServerCommunicator.setContext(this);
-        clientServerCommunicator.setProgressDialog(pd);
-        clientServerCommunicator.requestBunnies(Bunny.ITEMTYPE_BUNNY);
-
+        menuClientServerComm.setContext(this);
+        menuClientServerComm.setProgressDialog(pd);
+        menuClientServerComm.requestBunnies(Bunny.ITEMTYPE_BUNNY,selectecShop.getShopID());
 
 
         testToodlesDBAO();
@@ -376,7 +356,7 @@ public class MainMenuActivity extends AppCompatActivity implements BunniesNetwor
             if(loginType.equals(User.LOGIN_TYPE_FACEBOOK))
             {
                 AccessToken accessToken = getIntent().getParcelableExtra("AccessToken");
-                clientServerCommunicator.signOut((AccessToken) getIntent().getParcelableExtra("AccessToken"));
+                menuClientServerComm.signOut((AccessToken) getIntent().getParcelableExtra("AccessToken"));
 
             }
             else
